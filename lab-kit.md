@@ -84,19 +84,21 @@ Resistors for breadboards have color bands on their body, which can be used to r
 
 ## 5. Semiconductors
 
+Semiconductors are active circuit elements, meaning that they perform certian functions on the signals in the circuit. They are constructed from 
+| | | |
+|---|---|---|
+| <img src="images/08-resistors.jpg" width="400"/> | <img src="images/11-LEDs.jpg" width="400"/> | <img src="images/09-soil-sensor.jpg" width="400"/> |
+
+
 ### Guide
 
 #### Diodes
 
+#### Light-emitting diodes (LEDs)
+
 #### Transistors
 
 #### Soil sensor
-
-### Care
-
-## 6. Light-emitting diodes
-
-### Guide
 
 ### Care
 
