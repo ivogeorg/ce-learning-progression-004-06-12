@@ -79,7 +79,7 @@ This assignment introduces the GPIO pins of the micro:bit. _Refer to the [criter
 
 ### JavaScript
 
-1. Technically, the language which is used side-by-side with Blocks in the Makecode ronment is a subset of [TypeScript](https://makecode.com/language), which itself is a superset of JavaScript (technically, [ECMAScript](https://www.ecma-international.org/ecma-262/10.0/index.html#Title)), with some JS features not implemented in Makecode.
+1. Technically, the language which is used side-by-side with Blocks in the Makecode environment is a subset of [TypeScript](https://makecode.com/language), which itself is a superset of JavaScript (technically, [ECMAScript](https://www.ecma-international.org/ecma-262/10.0/index.html#Title)), with some JS features not implemented in Makecode.
 
 2. The limited [JavaScript mini-tutorial](https://makecode.microbit.org/javascript) in Makecode.
 
