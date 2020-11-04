@@ -37,9 +37,32 @@ Pay attention to these care directions:
 
 ## 2. Multimeter
 
+The [multimeter](https://www.sparkfun.com/products/12966) is a device that can measure electrical quantities, namely voltage (in Volts), current (in Amperes), resistance (in Ohms), as well as continuity of a circuit.  
+| | |
+|---|---|
+| <img src="images/03-multimeter-backside.jpg" width="300"/> | You need to open the flap on the back to connect the 9V PP3 battery |
+| <img src="images/04-multimeter-battery-in.jpg" width="300"/> | There is only one way you can connect the battery leads to the wire connector |
+| <img src="images/05-multimeter-front-probes.jpg" width="300"/> | Multimeter needs probes to measure the right circuit quantity |
+| <img src="images/06-multimeter-front-needle-probes.jpg" width="300"/> | Needle tipped probles can reach inside a breadboard hole |
+
 ### Guide
 
+The sparkfun [multimeter tutorial](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter) is comprehensive and covers a lot of topics. _Consider this required reading._  
+
 ### Care
+
+Follow these directions for safety and tool care:
+1. Always connect the black probe to the middle hole, named COM, which stands for common.  
+2. For this course, connect the red probe to the right-hand hole. You will not need to use the left-hand hole, as we are not going to generate such a large current (10 Amperes).  
+3. The dial on the face of the multimeter chooses the function. Mind the following two points:
+   1. Never select a current measument function (A) to measure voltage. Never select a voltage measurement function (V) to measure current.  
+   2. Always select a function with a rating larger than you expect your quantity to be. For example, to measure voltages around 3.3V, set the dial to 20V:
+   
+      |   |   |
+      |---|---|
+      <img src="images/18-measuring-3v3.jpg" width="200"/>  | <img src="images/17-multimeter-closeup.jpg" width="200"/>  
+
+4. The needle-tipped probes are extremely sharp. _Always replace the caps when you are leaving them unattended and/or not using them._  
 
 ## 3. Wires
 
