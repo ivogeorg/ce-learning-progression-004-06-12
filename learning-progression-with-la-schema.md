@@ -8,9 +8,16 @@ This progression introduces fundamentals of computing, including the binary syst
 
 ## 2. Lab kit
 
-##### Lab kit overview
+The lab kit is described in detail in a [separate page](lab-kit.md).  
 
 ##### Parts for progression  
+
+1. Breadboard.  
+2. Breadboard power supply with wall plug.  
+3. micro:bit breakout board (connector).  
+4. 330 Ohm resistor (10 count).  
+5. LEDs (10 count).  
+6. Wires.  
 
 ### Step 6: Electricity & magnetism
    - charge, voltage, current
