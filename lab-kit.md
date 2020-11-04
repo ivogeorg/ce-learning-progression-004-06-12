@@ -66,7 +66,21 @@ Follow these directions for safety and tool care:
 
 ## 3. Wires
 
+Wires are used to connect elecrical circuits. Not much to say about them.  
+
+<img src="images/07-wires.jpg" width="400"/>
+
+Red wires are conventionally used to connect to the voltage source of the circuit (Vcc) or generally a higher voltage; black wires are used to connect to zero voltage, usually called ground (GND), or generally a lower voltage. Note that the multimeter follows this convention, and you should always connect its black probe to ground or lowest voltage.  
+
 ## 4. Resistors
+
+Resistors are passive circuit elements, which oppose the flow of current. Ohm's Law involves a nice interdependence between the three most important electric circuit quantities, namely volgage (V), current (I), and resistance (R): <img src="https://render.githubusercontent.com/render/math?math=V = IR">.  
+
+<img src="images/08-resistors.jpg" width="400"/>   
+
+The units of resistance are Ohm's (because of Ohm's Law), usually indicated by the greek letter omega (<img src="https://render.githubusercontent.com/render/math?math=\Omega">). The kit contains two different resistor types:  <img src="https://render.githubusercontent.com/render/math?math=10 K\Omega"> (large resistance), and <img src="https://render.githubusercontent.com/render/math?math=330 \Omega"> (small resistance).  
+
+Resistors for breadboards have color bands on their body, which can be used to read off their resistance, tolerance, and rating. Take a look at the [color chart](https://www.mouser.com/technical-resources/conversion-calculators/resistor-color-code-calculator). Of course, you can always use the multimeter in resistance mode (<img src="https://render.githubusercontent.com/render/math?math=\Omega">) and connect the resistor between the two probes to measure its resistance.   
 
 ## 5. Semiconductors
 
@@ -75,6 +89,8 @@ Follow these directions for safety and tool care:
 #### Diodes
 
 #### Transistors
+
+#### Soil sensor
 
 ### Care
 
