@@ -1,6 +1,6 @@
 # Lab kit
 
-A take-home lab kit for CPE 1040, LP004-005.
+A take-home lab kit for CPE 1040, LP004-005. It was assembled by SparkFun. The contents and descriptions of the various components can be found on [SparkFun's special page for MSUD](https://www.sparkfun.com/msu_denver).  
 
 ## 1. Breadboard
 
@@ -84,24 +84,41 @@ Resistors for breadboards have color bands on their body, which can be used to r
 
 ## 5. Semiconductors
 
-Semiconductors are active circuit elements, meaning that they perform certian functions on the signals in the circuit. They are constructed from 
-| | | |
-|---|---|---|
-| <img src="images/08-resistors.jpg" width="400"/> | <img src="images/11-LEDs.jpg" width="400"/> | <img src="images/09-soil-sensor.jpg" width="400"/> |
+Semiconductors are active circuit elements, meaning that they perform certian functions on the signals in the circuit. They are highly engineered devices made from silicon, gallium, boron, phosphorus, arsenic, and some metals to make systematic use of electromagnetic and electromechanical properties of solic matter on the border of the quantum world.
 
+| <img src="images/08-resistors.jpg" width="400"/> | <img src="images/11-LEDs.jpg" width="400"/> | <img src="images/09-soil-sensor.jpg" width="400"/> |
+|---|---|---|
+
+We have two different classes of devices: diodes, and transistors.  
 
 ### Guide
 
 #### Diodes
 
+Diodes look in their packaging like resistors, but they perform a non-linear function, namely they conduct current in one direction (without resisting it significantly) and do not allow it to flow in the other (until a breakdown voltage threshold is passed). Contrary to resistors, diodes are directional.  
+
 #### Light-emitting diodes (LEDs)
+
+LEDs are light-emitting diodes. When hooked to a circuit in the conducting orientation, they emit light.  
 
 #### Transistors
 
+Transistors are the most important fundamental hardware unit of computation. It is a 3-terminal device where one of the terminals controls the current that will flow between the other two. In this sense, transistors are electronic switches. Computers are made out of millions of transistors, which underlie both processors and memories.  
+
 #### Soil sensor
+
+The soil sensor is essentially a transistor, hooked up in such a way that the strength of the signal that sends to the computer (the micro:bit in our case) depends on the resistance (or, conversely, the conductance) between the two prongs, which are inserted in soil or directly in water.  
 
 ### Care
 
+Semiconductor devices have to be connected according to their documentation, with proper voltages applied to the right terminals. Otherwise, they may be damaged irreversibly. Follow these directions to keep them intact:
+1. Hook up LEDs with the longer leg toward Vcc and shorter leg toward GND. This is the conducting direction.  
+2. The particular type of transistors that we have in the kit are bipolar-junction transistors (BJTs). They are current amplifiers, come in two flabors (NPN and PNP), and have 3 terminals called base (B), emitter (E), and collector (C). Follow the instructions in their documentation to identify which is which and connect them properly and safely.  
+3. Here are the datasheets:
+   1. NPN transistor: [2N3904](https://www.sparkfun.com/datasheets/Components/2N3904.pdf).  
+   2. PNP transistor: [2N3906](https://www.sparkfun.com/datasheets/Components/2N3906.pdf).  
+   3. Diode: [1N4148](https://www.diodes.com/assets/Datasheets/ds12019.pdf).  
+   4. LED: [info sheet](https://cdn.sparkfun.com/datasheets/Components/LED/SFE-03-0010-LEDInsertCards-RainbowPack-03-Outlines.pdf).  
 
 
 
