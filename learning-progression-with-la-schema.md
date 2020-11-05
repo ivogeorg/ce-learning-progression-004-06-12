@@ -8,7 +8,7 @@ This progression introduces fundamentals of computing, including the binary syst
 
 ## 2. Lab kit
 
-The lab kit is described in detail in a [separate page](lab-kit.md).  
+The lab kit is described in detail in a [separate page](lab-kit.md). Please, make sure you read the care and safety instructions embedded for most of the kit components.    
 
 ##### Parts for progression  
 
@@ -20,43 +20,52 @@ The lab kit is described in detail in a [separate page](lab-kit.md).
 6. Wires.  
 
 ### Step 6: Electricity & magnetism
-   - charge, voltage, current
-   - Kirchhoff's laws  
-   - parallel and in-series resistors  
+
 #### 1. Study
+
+- charge, voltage, current  
+- Kirchhoff's laws    
+- parallel and in-series resistors  
+
 
 #### 2. Apply
 
 #### 3. Present
 
 ### Step 7: Circuits & circuit elements  
-   - resistor  
-   - capacitor  
-   - inductor  
-   - diode  
-   - wires  
-   - voltage/current source (battery)  
-   - mechanical switches  
+
 #### 1. Study
+
+- resistor   
+- capacitor   
+- inductor   
+- diode  
+- wires  
+- voltage/current source (battery)  
+- mechanical switches  
+
 
 #### 2. Apply
 
 #### 3. Present
 
 ### Step 8: Multimeter  
-   - voltage  
-   - current  
-   - resistance  
-   - diode/continuity  
+
 #### 1. Study
+- voltage  
+- current  
+- resistance  
+- diode/continuity  
 
 #### 2. Apply
 
 #### 3. Present
 
 ### Step 9: Basic LED circuit  
-   - LED current and voltage drop  
+
 #### 1. Study
+
+- LED current and voltage drop  
 
 #### 2. Apply
 
@@ -64,8 +73,9 @@ The lab kit is described in detail in a [separate page](lab-kit.md).
 
 ### Step 10: micro:bit breakout board
 
-[Hookup guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide)  
 #### 1. Study
+
+[Hookup guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide)  
 
 #### 2. Apply
 
@@ -73,22 +83,25 @@ The lab kit is described in detail in a [separate page](lab-kit.md).
 
 ### Step 11: micro:bit GPIO pins
 
-    - digital/analog functions  
-    - write out to drive external LED circuit
-    - read in (simple resistor and LED circuits)
-    - digital vs analog (binary vs continuous-level signal)
-    - calibration of analog in
-    - write out and read in together to close the external-circuit loop
 #### 1. Study
+
+- digital/analog functions  
+- write out to drive external LED circuit  
+- read in (simple resistor and LED circuits)  
+- digital vs analog (binary vs continuous-level signal)  
+- calibration of analog in  
+- write out and read in together to close the external-circuit loop  
 
 #### 2. Apply
 
 #### 3. Present
 
 ### Step 12: Screensaver extension   
-    - two extra rows for a 7x5 matrix   
-    - extension of all sub-programs  
+
 #### 1. Study
+
+- two extra rows for a 7x5 matrix   
+- extension of all sub-programs  
 
 #### 2. Apply
 
