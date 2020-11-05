@@ -7,8 +7,8 @@ Table of Contents
 
 * [CPE 1040 \- Fall 2020](#cpe-1040---fall-2020)
   * [Learning Progression 004: External LEDs](#learning-progression-004-external-leds)
-  * [2\. Lab kit](#2-lab-kit)
-        * [Parts for progression](#parts-for-progression)
+  * [Lab kit](#lab-kit)  
+        * [Parts for progression](#parts-for-progression)  
     * [Step 6: Electricity &amp; magnetism](#step-6-electricity--magnetism)
       * [1\. Study](#1-study)
       * [2\. Apply](#2-apply)
@@ -44,7 +44,7 @@ Table of Contents
 
 This progression introduces fundamentals of computing, including the binary system of data representation as well as the basics of memory and processing. We introduce assembly language in the context of a minimal instruction set processor. This is where the lowest layer of the software stack and the highest layer of the hardware stack coexist, and where user programs are translated into machine code and executed by the processor one instruction at a time. This is also the level of computing which directly correpsonds to the simplest theoretical models of a computer. We also introduce the input-output capabilities of the micro:bit and build an external circuit to serve as an extension to the built-in 5x5 LED matrix to run our Screensavers program on.
 
-## 2. Lab kit
+## Lab kit
 [[toc](#table-of-contents)]  
 
 The lab kit is described in detail in a [separate page](lab-kit.md). Please, make sure you read the care and safety instructions embedded for most of the kit components.    
