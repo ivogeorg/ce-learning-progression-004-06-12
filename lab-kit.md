@@ -23,6 +23,7 @@ Table of Contents
     * [Care](#care-2)
 
 ## 1. Breadboard
+[[toc](#table-of-contents)]  
 
 A breadboard is a plate with through-holes and electrical connections for use with hands-on circuit building and prototyping. This is the white plastic block shown on the picture below. There are also a [power supply](https://www.sparkfun.com/products/13032) (with a [wall adapter](https://www.sparkfun.com/products/15314) and a [microbit connector](https://www.sparkfun.com/products/13989).
 
@@ -35,12 +36,14 @@ The power supply is connected to one end of the breadboard along the short side.
 
 
 ### Guide
+[[toc](#table-of-contents)]  
 
 SparkFun, who assembled the lab kit for us, has very thorough guides:
 1. For [using a breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all), including the power supply. Pay special attention to how the breadboard rows and columns are connected. This is something you have to get used to.    
 2. For [hooking up the micro:bit to the breadboard](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide).  
 
 ### Care
+[[toc](#table-of-contents)]  
 
 Pay attention to these care directions:
 1. Take a look at this [image from the SparkFun guide](https://cdn.sparkfun.com/r/600-600/assets/2/f/9/d/a/513a1dfbce395fe524000001.JPG) for the correct connection of the power supply. The [header pins](https://www.mouser.com/images/samtec/images/samtec_mtms_SPL.jpg), of which it has 2 groups of 4 on both sides, have to be inserted into the rails of the breadboard, in the first two rows on one end, with the VCC label on the side of the red rail line and the GND on the side of the blue rail line.  
@@ -56,6 +59,7 @@ Pay attention to these care directions:
 <img src="images/13-mb-breakout-scissors.jpg" width="200"/>  
 
 ## 2. Multimeter
+[[toc](#table-of-contents)]  
 
 The [multimeter](https://www.sparkfun.com/products/12966) is a device that can measure electrical quantities, namely voltage (in Volts), current (in Amperes), resistance (in Ohms), as well as continuity of a circuit.  
 | | |
@@ -66,10 +70,12 @@ The [multimeter](https://www.sparkfun.com/products/12966) is a device that can m
 | <img src="images/06-multimeter-front-needle-probes.jpg" width="300"/> | Needle tipped probles can reach inside a breadboard hole |
 
 ### Guide
+[[toc](#table-of-contents)]  
 
 The sparkfun [multimeter tutorial](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter) is comprehensive and covers a lot of topics. _Consider this required reading._  
 
 ### Care
+[[toc](#table-of-contents)]  
 
 Follow these directions for safety and tool care:
 1. Always connect the black probe to the middle hole, named COM, which stands for common.  
@@ -85,6 +91,7 @@ Follow these directions for safety and tool care:
 4. The needle-tipped probes are extremely sharp. _Always replace the caps when you are leaving them unattended and/or not using them._  
 
 ## 3. Wires
+[[toc](#table-of-contents)]  
 
 Wires are used to connect elecrical circuits. Not much to say about them.  
 
@@ -93,6 +100,7 @@ Wires are used to connect elecrical circuits. Not much to say about them.
 Red wires are conventionally used to connect to the voltage source of the circuit (Vcc) or generally a higher voltage; black wires are used to connect to zero voltage, usually called ground (GND), or generally a lower voltage. Note that the multimeter follows this convention, and you should always connect its black probe to ground or lowest voltage.  
 
 ## 4. Resistors
+[[toc](#table-of-contents)]  
 
 Resistors are passive circuit elements, which oppose the flow of current. Ohm's Law involves a nice interdependence between the three most important electric circuit quantities, namely volgage (V), current (I), and resistance (R): <img src="https://render.githubusercontent.com/render/math?math=V = IR">.  
 
@@ -103,6 +111,7 @@ The units of resistance are Ohm's (because of Ohm's Law), usually indicated by t
 Resistors for breadboards have color bands on their body, which can be used to read off their resistance, tolerance, and rating. Take a look at the [color chart](https://www.mouser.com/technical-resources/conversion-calculators/resistor-color-code-calculator). Of course, you can always use the multimeter in resistance mode (<img src="https://render.githubusercontent.com/render/math?math=\Omega">) and connect the resistor between the two probes to measure its resistance.   
 
 ## 5. Semiconductors
+[[toc](#table-of-contents)]  
 
 Semiconductors are active circuit elements, meaning that they perform certian functions on the signals in the circuit. They are highly engineered devices made from silicon, gallium, boron, phosphorus, arsenic, and some metals to make systematic use of electromagnetic and electromechanical properties of solic matter on the border of the quantum world.
 
@@ -112,24 +121,30 @@ Semiconductors are active circuit elements, meaning that they perform certian fu
 We have two different classes of devices: diodes, and transistors.  
 
 ### Guide
+[[toc](#table-of-contents)]  
 
 #### Diodes
+[[toc](#table-of-contents)]  
 
 Diodes look in their packaging like resistors, but they perform a non-linear function, namely they conduct current in one direction (without resisting it significantly) and do not allow it to flow in the other (until a breakdown voltage threshold is passed). Contrary to resistors, diodes are directional.  
 
 #### Light-emitting diodes (LEDs)
+[[toc](#table-of-contents)]  
 
 LEDs are light-emitting diodes. When hooked to a circuit in the conducting orientation, they emit light.  
 
 #### Transistors
+[[toc](#table-of-contents)]  
 
 Transistors are the most important fundamental hardware unit of computation. It is a 3-terminal device where one of the terminals controls the current that will flow between the other two. In this sense, transistors are electronic switches. Computers are made out of millions of transistors, which underlie both processors and memories.  
 
 #### Soil sensor
+[[toc](#table-of-contents)]  
 
 The soil sensor is essentially a transistor, hooked up in such a way that the strength of the signal that sends to the computer (the micro:bit in our case) depends on the resistance (or, conversely, the conductance) between the two prongs, which are inserted in soil or directly in water.  
 
 ### Care
+[[toc](#table-of-contents)]  
 
 Semiconductor devices have to be connected according to their documentation, with proper voltages applied to the right terminals. Otherwise, they may be damaged irreversibly. Follow these directions to keep them intact:
 1. Hook up LEDs with the longer leg toward Vcc and shorter leg toward GND. This is the conducting direction.  
@@ -140,6 +155,6 @@ Semiconductor devices have to be connected according to their documentation, wit
    2. PNP transistor: [2N3906](https://www.sparkfun.com/datasheets/Components/2N3906.pdf).  
    3. Diode: [1N4148](https://www.diodes.com/assets/Datasheets/ds12019.pdf).  
    4. LED: [info sheet](https://cdn.sparkfun.com/datasheets/Components/LED/SFE-03-0010-LEDInsertCards-RainbowPack-03-Outlines.pdf).  
-
+5. Do not dip more than the prongs of the soil sensor in water.  
 
 
