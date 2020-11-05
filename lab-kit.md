@@ -2,6 +2,26 @@
 
 A take-home lab kit for CPE 1040, LP004-005. It was assembled by SparkFun. The contents and descriptions of the various components can be found on [SparkFun's special page for MSUD](https://www.sparkfun.com/msu_denver).  
 
+Table of Contents
+=================
+
+* [Lab kit](#lab-kit)
+  * [1\. Breadboard](#1-breadboard)
+    * [Guide](#guide)
+    * [Care](#care)
+  * [2\. Multimeter](#2-multimeter)
+    * [Guide](#guide-1)
+    * [Care](#care-1)
+  * [3\. Wires](#3-wires)
+  * [4\. Resistors](#4-resistors)
+  * [5\. Semiconductors](#5-semiconductors)
+    * [Guide](#guide-2)
+      * [Diodes](#diodes)
+      * [Light\-emitting diodes (LEDs)](#light-emitting-diodes-leds)
+      * [Transistors](#transistors)
+      * [Soil sensor](#soil-sensor)
+    * [Care](#care-2)
+
 ## 1. Breadboard
 
 A breadboard is a plate with through-holes and electrical connections for use with hands-on circuit building and prototyping. This is the white plastic block shown on the picture below. There are also a [power supply](https://www.sparkfun.com/products/13032) (with a [wall adapter](https://www.sparkfun.com/products/15314) and a [microbit connector](https://www.sparkfun.com/products/13989).
