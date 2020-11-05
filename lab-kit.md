@@ -150,11 +150,12 @@ Semiconductor devices have to be connected according to their documentation, wit
 1. Hook up LEDs with the longer leg toward Vcc and shorter leg toward GND. This is the conducting direction.  
 2. Never hook up an LED directly between Vcc and GND. There should be always a 330 Ohm current-limiting resistor in series with the LED.  
 3. The particular type of transistors that we have in the kit are bipolar-junction transistors (BJTs). They are current amplifiers, come in two flabors (NPN and PNP), and have 3 terminals called base (B), emitter (E), and collector (C). Follow the instructions in their documentation to identify which is which and connect them properly and safely.  
-4. Here are the datasheets:
+4. Never connect the base (B) of a transistor to a voltage without a current-limiting resistor. The base current for BJTs should be very small, so a 10 KOhm resistor in series is standard for the base.  
+5. Here are the datasheets:
    1. NPN transistor: [2N3904](https://www.sparkfun.com/datasheets/Components/2N3904.pdf).  
    2. PNP transistor: [2N3906](https://www.sparkfun.com/datasheets/Components/2N3906.pdf).  
    3. Diode: [1N4148](https://www.diodes.com/assets/Datasheets/ds12019.pdf).  
    4. LED: [info sheet](https://cdn.sparkfun.com/datasheets/Components/LED/SFE-03-0010-LEDInsertCards-RainbowPack-03-Outlines.pdf).  
-5. Do not dip more than the prongs of the soil sensor in water.  
+6. Do not dip more than the prongs of the soil sensor in water.  
 
 
