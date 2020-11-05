@@ -2,6 +2,42 @@
 
 This is learning progression 004 for the Fall 2020 installment of the course CPE 1040: Introduction to Computer Engineering at MSU Denver.
 
+Table of Contents
+=================
+
+* [CPE 1040 \- Fall 2020](#cpe-1040---fall-2020)
+  * [Learning Progression 004: External LEDs](#learning-progression-004-external-leds)
+  * [Lab kit](#lab-kit)
+    * [Parts for progression](#parts-for-progression)
+  * [Steps](#steps)
+    * [Step 6: Electricity &amp; magnetism](#step-6-electricity--magnetism)
+      * [1\. Study](#1-study)
+      * [2\. Apply](#2-apply)
+      * [3\. Present](#3-present)
+    * [Step 7: Circuits &amp; circuit elements](#step-7-circuits--circuit-elements)
+      * [1\. Study](#1-study-1)
+      * [2\. Apply](#2-apply-1)
+      * [3\. Present](#3-present-1)
+    * [Step 8: Multimeter](#step-8-multimeter)
+      * [1\. Study](#1-study-2)
+      * [2\. Apply](#2-apply-2)
+      * [3\. Present](#3-present-2)
+    * [Step 9: Basic LED circuit](#step-9-basic-led-circuit)
+      * [1\. Study](#1-study-3)
+      * [2\. Apply](#2-apply-3)
+      * [3\. Present](#3-present-3)
+    * [Step 10: micro:bit breakout board](#step-10-microbit-breakout-board)
+      * [1\. Study](#1-study-4)
+      * [2\. Apply](#2-apply-4)
+      * [3\. Present](#3-present-4)
+    * [Step 11: micro:bit GPIO pins](#step-11-microbit-gpio-pins)
+      * [1\. Study](#1-study-5)
+      * [2\. Apply](#2-apply-5)
+      * [3\. Present](#3-present-5)
+    * [Step 12: Screensaver extension](#step-12-screensaver-extension)
+      * [1\. Study](#1-study-6)
+      * [2\. Apply](#2-apply-6)
+      * [3\. Present](#3-present-6)
 
 
 ## Learning Progression 004: External LEDs
