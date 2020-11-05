@@ -113,8 +113,9 @@ The soil sensor is essentially a transistor, hooked up in such a way that the st
 
 Semiconductor devices have to be connected according to their documentation, with proper voltages applied to the right terminals. Otherwise, they may be damaged irreversibly. Follow these directions to keep them intact:
 1. Hook up LEDs with the longer leg toward Vcc and shorter leg toward GND. This is the conducting direction.  
-2. The particular type of transistors that we have in the kit are bipolar-junction transistors (BJTs). They are current amplifiers, come in two flabors (NPN and PNP), and have 3 terminals called base (B), emitter (E), and collector (C). Follow the instructions in their documentation to identify which is which and connect them properly and safely.  
-3. Here are the datasheets:
+2. Never hook up an LED directly between Vcc and GND. There should be always a 330 Ohm current-limiting resistor in series with the LED.  
+3. The particular type of transistors that we have in the kit are bipolar-junction transistors (BJTs). They are current amplifiers, come in two flabors (NPN and PNP), and have 3 terminals called base (B), emitter (E), and collector (C). Follow the instructions in their documentation to identify which is which and connect them properly and safely.  
+4. Here are the datasheets:
    1. NPN transistor: [2N3904](https://www.sparkfun.com/datasheets/Components/2N3904.pdf).  
    2. PNP transistor: [2N3906](https://www.sparkfun.com/datasheets/Components/2N3906.pdf).  
    3. Diode: [1N4148](https://www.diodes.com/assets/Datasheets/ds12019.pdf).  
