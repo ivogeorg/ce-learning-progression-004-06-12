@@ -68,6 +68,7 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
+- theories of electricity  
 - charge, voltage, current  
 - Kirchhoff's laws    
 - parallel and in-series resistors  
@@ -96,6 +97,7 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 - wires  
 - voltage/current source (battery)  
 - mechanical switches  
+- in-browser simulation?  
 
 
 #### 2. Apply
@@ -146,6 +148,11 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
+1. `[<lernact-prac>]`Run the program from the guide, using any 3 LEDs of different color.  
+2. `[<lernact-prac>]`Run with 5 LED circuits.    
+3. `[<lernact-prac>]`5 LED circuits driven by 5 evenly offset sinusoids to produce a ripple effect.    
+
+
 #### 3. Present
 [[toc](#table-of-contents)]  
 
@@ -175,7 +182,11 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 [[toc](#table-of-contents)]  
 
 - two extra rows for a 5x7 matrix   
-- extension of all sub-programs  
+- extension of code and rain, separately  
+- remove one button and convert the other to a mode toggle  
+- parametrize `screensavers.js` as follows:  
+  - 5x5 to 5x7  
+  - internal LEDs with `led` commands, external LEDs with `pin` commands  
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
