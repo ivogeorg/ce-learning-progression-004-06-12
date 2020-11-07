@@ -68,10 +68,12 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
+- electrostatics (rubbing amber, etc.)  
 - theories of electricity  
+  - current as motion of charge  
+  - Maxwell's equations  
+  - quantum electrodynamics  
 - charge, voltage, current  
-- Kirchhoff's laws    
-- parallel and in-series resistors  
 
 
 #### 2. Apply
@@ -90,14 +92,16 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
+- Kirchhoff's laws    
 - resistor   
-- capacitor   
-- inductor   
+- parallel and in-series resistors  
+- (n/a) capacitor   
+- (n/a) inductor   
 - diode  
 - wires  
 - voltage/current source (battery)  
-- mechanical switches  
-- in-browser simulation?  
+- (n/a) mechanical switches  
+- [in-browser simulation](http://lushprojects.com/circuitjs/circuitjs.html) would be very nice! ([source](https://github.com/sharpie7/circuitjs1))  
 
 
 #### 2. Apply
