@@ -170,7 +170,7 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-- two extra rows for a 7x5 matrix   
+- two extra rows for a 5x7 matrix   
 - extension of all sub-programs  
 
 #### 2. Apply
