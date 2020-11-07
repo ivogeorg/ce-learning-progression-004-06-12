@@ -77,7 +77,8 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 [[toc](#table-of-contents)]  
 
 1. `[<lernact-disc>]`What if our physical world had 3 different charges instead of 2 (positive and negative)?  
-2. `[<lernact-disc>]`Einsein's largest contribution to science were his theories of relativity, special and general. But he did not get his Nobel Prize in Physics for either one. What did Einstein get a Nobel Prize for?    
+2. `[<lernact-disc>]`Each fundamental interaction has a particle. What is the particle for Electromagnetism?    
+3. `[<lernact-disc>]`Einsein's largest contribution to science were his theories of relativity, special and general. But he did not get his Nobel Prize in Physics for either one. What did Einstein get a Nobel Prize for?    
 
 #### 3. Present
 [[toc](#table-of-contents)]  
