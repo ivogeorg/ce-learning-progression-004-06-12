@@ -4,55 +4,7 @@ This is learning progression 004 for the Fall 2020 installment of the course CPE
 
 <img src="images/lp004-img.jpg" width="800" />
 
-Table of Contents
-=================
 
-* [CPE 1040 \- Fall 2020](#cpe-1040---fall-2020)
-  * [Learning Progression 004: External LEDs](#learning-progression-004-external-leds)
-  * [Lab kit](#lab-kit)
-    * [Parts for progression](#parts-for-progression)
-  * [Steps](#steps)
-    * [Step 6: Electromagnetism](#step-6-electromagnetism)
-      * [1\. Study](#1-study)
-    * [Fundamental interaction](#fundamental-interaction)
-    * [Electrostatics &amp; magenetostatics](#electrostatics--magenetostatics)
-    * [Theories of electricity](#theories-of-electricity)
-    * [Charge, voltage, and current](#charge-voltage-and-current)
-      * [2\. Apply](#2-apply)
-      * [3\. Present](#3-present)
-    * [Step 7: Circuits &amp; circuit elements](#step-7-circuits--circuit-elements)
-      * [1\. Study](#1-study-1)
-    * [Resistance](#resistance)
-    * [Circuits](#circuits)
-    * [Circuit elements](#circuit-elements)
-      * [2\. Apply](#2-apply-1)
-      * [3\. Present](#3-present-1)
-    * [Step 8: Multimeter](#step-8-multimeter)
-      * [1\. Study](#1-study-2)
-    * [Measuring voltage](#measuring-voltage)
-    * [Measuring current](#measuring-current)
-    * [Measuring resistance](#measuring-resistance)
-    * [Checking for continuity](#checking-for-continuity)
-      * [2\. Apply](#2-apply-2)
-      * [3\. Present](#3-present-2)
-    * [Step 9: Basic LED circuit](#step-9-basic-led-circuit)
-      * [1\. Study](#1-study-3)
-      * [2\. Apply](#2-apply-3)
-      * [3\. Present](#3-present-3)
-    * [Step 10: micro:bit breakout board](#step-10-microbit-breakout-board)
-      * [1\. Study](#1-study-4)
-      * [2\. Apply](#2-apply-4)
-      * [3\. Present](#3-present-4)
-    * [Step 11: micro:bit GPIO pins](#step-11-microbit-gpio-pins)
-      * [1\. Study](#1-study-5)
-    * [micro:bit I/O](#microbit-io)
-    * [Digital vs analog](#digital-vs-analog)
-      * [2\. Apply](#2-apply-5)
-      * [3\. Present](#3-present-5)
-    * [Step 12: Screensaver extension](#step-12-screensaver-extension)
-      * [1\. Study](#1-study-6)
-      * [2\. Apply](#2-apply-6)
-      * [3\. Present](#3-present-6)
 
 
 ## Learning Progression 004: External LEDs
@@ -83,19 +35,19 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-### Fundamental interaction
+##### Fundamental interaction
 
-### Electrostatics & magenetostatics
+##### Electrostatics & magenetostatics
 
 - electrostatics (rubbing amber, etc.)  
 
-### Theories of electricity
+##### Theories of electricity
 - theories of electricity  
   - current as motion of charge  
   - Maxwell's equations  
   - quantum electrodynamics  
 
-### Charge, voltage, and current
+##### Charge, voltage, and current
 - charge, voltage, current  
 
 
@@ -115,17 +67,17 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-### Resistance  
+##### Resistance  
 - resistor
   - band theory  
 - Ohm's law
 
-### Circuits  
+##### Circuits  
 - circuits  
 - Kirchhoff's laws    
 - parallel and in-series resistors  
 
-### Circuit elements  
+##### Circuit elements  
 - (n/a) capacitor   
 - (n/a) inductor   
 - diode  
@@ -147,16 +99,16 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-### Measuring voltage  
+##### Measuring voltage  
 - voltage  
 
-### Measuring current  
+##### Measuring current  
 - current  
 
-### Measuring resistance
+##### Measuring resistance
 - resistance  
 
-### Checking for continuity  
+##### Checking for continuity  
 - diode/continuity  
 
 #### 2. Apply
@@ -204,12 +156,12 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-### micro:bit I/O
+##### micro:bit I/O
 - digital/analog functions  
 - write out to drive external LED circuit  
 - read in (simple resistor and LED circuits)  
 
-### Digital vs analog  
+##### Digital vs analog  
 - digital vs analog (binary vs continuous-level signal)  
 - calibration of analog in  
 - write out and read in together to close the external-circuit loop  
