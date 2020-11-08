@@ -172,6 +172,9 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 - digital vs analog (binary vs continuous-level signal)  
 - calibration of analog in  
 - write out and read in together to close the external-circuit loop  
+- resources:
+  - [edge connector](https://tech.microbit.org/hardware/edgeconnector/#pins-and-signals)  
+  - [pin:out](https://microbit.pinout.xyz/)  
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
