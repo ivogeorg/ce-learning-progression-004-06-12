@@ -89,6 +89,7 @@ Follow these directions for safety and tool care:
       <img src="images/18-measuring-3v3.jpg" width="200"/>  | <img src="images/17-multimeter-closeup.jpg" width="200"/>  
 
 4. The needle-tipped probes are extremely sharp. _Always replace the caps when you are leaving them unattended and/or not using them._  
+5. Keep your multimiter dial in the OFF position when not in use to conserve the battery.  
 
 ## 3. Wires
 [[toc](#table-of-contents)]  

@@ -68,13 +68,20 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
+- electrostatics (rubbing amber, etc.)  
+- theories of electricity  
+  - current as motion of charge  
+  - Maxwell's equations  
+  - quantum electrodynamics  
 - charge, voltage, current  
-- Kirchhoff's laws    
-- parallel and in-series resistors  
 
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
+
+1. `[<lernact-disc>]`What if our physical world had 3 different charges instead of 2 (positive and negative)?  
+2. `[<lernact-disc>]`Each fundamental interaction has a particle. What is the particle for Electromagnetism?    
+3. `[<lernact-disc>]`Einsein's largest contribution to science were his theories of relativity, special and general. But he did not get his Nobel Prize in Physics for either one. What did Einstein get a Nobel Prize for?    
 
 #### 3. Present
 [[toc](#table-of-contents)]  
@@ -85,13 +92,19 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-- resistor   
-- capacitor   
-- inductor   
+- resistor
+  - band theory  
+- Ohm's law
+- circuits  
+- Kirchhoff's laws    
+- parallel and in-series resistors  
+- (n/a) capacitor   
+- (n/a) inductor   
 - diode  
 - wires  
 - voltage/current source (battery)  
-- mechanical switches  
+- (n/a) mechanical switches  
+- [in-browser simulation](http://lushprojects.com/circuitjs/circuitjs.html) would be very nice! ([source](https://github.com/sharpie7/circuitjs1))  
 
 
 #### 2. Apply
@@ -142,6 +155,11 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
+1. `[<lernact-prac>]`Run the program from the guide, using any 3 LEDs of different color.  
+2. `[<lernact-prac>]`Run with 5 LED circuits.    
+3. `[<lernact-prac>]`5 LED circuits driven by 5 evenly offset sinusoids to produce a ripple effect.    
+
+
 #### 3. Present
 [[toc](#table-of-contents)]  
 
@@ -157,6 +175,9 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 - digital vs analog (binary vs continuous-level signal)  
 - calibration of analog in  
 - write out and read in together to close the external-circuit loop  
+- resources:
+  - [edge connector](https://tech.microbit.org/hardware/edgeconnector/#pins-and-signals)  
+  - [pin:out](https://microbit.pinout.xyz/)  
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
@@ -170,8 +191,12 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-- two extra rows for a 7x5 matrix   
-- extension of all sub-programs  
+- two extra rows for a 5x7 matrix   
+- extension of code and rain, separately  
+- remove one button and convert the other to a mode toggle  
+- parametrize `screensavers.js` as follows:  
+  - 5x5 to 5x7  
+  - internal LEDs with `led` commands, external LEDs with `pin` commands  
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
