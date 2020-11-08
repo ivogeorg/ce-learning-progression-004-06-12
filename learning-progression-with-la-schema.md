@@ -2,6 +2,8 @@
 
 This is learning progression 004 for the Fall 2020 installment of the course CPE 1040: Introduction to Computer Engineering at MSU Denver.
 
+<img src="images/lp004-img.jpg" width="800" />
+
 Table of Contents
 =================
 
