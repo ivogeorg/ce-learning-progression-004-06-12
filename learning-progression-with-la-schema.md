@@ -92,8 +92,11 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
+- resistor
+  - band theory  
+- Ohm's law
+- circuits  
 - Kirchhoff's laws    
-- resistor   
 - parallel and in-series resistors  
 - (n/a) capacitor   
 - (n/a) inductor   
