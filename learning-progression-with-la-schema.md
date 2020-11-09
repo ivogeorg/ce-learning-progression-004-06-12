@@ -216,6 +216,9 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
   - [edge connector](https://tech.microbit.org/hardware/edgeconnector/#pins-and-signals)  
   - [pin:out](https://microbit.pinout.xyz/)  
 
+##### Different grounds
+
+
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
@@ -228,18 +231,56 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
+##### Extending a program
+
+`[<lernact-rd>]`Extending a program is one of the most frequent tasks in software engineering. It is the complementary converse of iterative development. If you are building a large software or full-stack system, you want to implement it in steps of reasonable size, not too large and not too small. Inevitably, you will be extending an already written program.
+
+Take a look at the following videos to see the goal for this step - extending the 5x5 LED matrix of the micro:bit to a 5x7 matrix with two external LED rows driven by micro:bit GPIO pins:
+1. The [coding](https://msudenver.yuja.com/Dashboard/Permalink?authCode=1801242296&b=2060518&linkType=video) screensaver in 5x7.    
+2. The [rain](https://msudenver.yuja.com/Dashboard/Permalink?authCode=710066217&b=2060531&linkType=video) screensaver in 5x7.    
+3. The [frequency bars](https://msudenver.yuja.com/Dashboard/Permalink?authCode=1488262525&b=2060499&linkType=video) screensaver in 5x7.    
+
+The first five rows are commanded with functions from the `led` namespace, while the last 2 are commanded with functions from the `pins` namespace. While analog output pins may work for the whole screensavers program, especially when we want to have different brightness (aka intensity), the coding program can use digital output pins. In this sense, the following table shows the equivalent statements:
+
+Analog pin | Digital pin
+--- | ---
+`pins.analogWritePin(AnalogPin.P0, 0)` | `pins.digitalWritePin(DigitalPin.P0, 0)`
+`pins.analogWritePin(AnalogPin.P0, 1023)` | `pins.digitalWritePin(DigitalPin.P0, 1)`
+
+##### Defining extra rows
 - two extra rows for a 5x7 matrix   
 - extension of code and rain, separately  
+
+##### Choice of pins
+
+Because the LEDs as used in the screensavers have to be controlled independently from each other (unlike icon-based programs), this extension requires 10 GPIO pins. You can use the simple LED circuit to test each one of them with a simple program. The 
+
 - remove one button and convert the other to a mode toggle  
-- parametrize `screensavers.js` as follows:  
-  - 5x5 to 5x7  
-  - internal LEDs with `led` commands, external LEDs with `pin` commands  
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
+1. `[<lernact-prac>]`Build the two external rows of LEDs and program a row to continuously move up and down the 7 vertical positions (5 from the micro:bit LED matrix and 2 on external LEDs driven by micro:bit pins).  
+2. `[<lernact-prac>]`Extend the code-writing program to work with the 7 rows of LEDs.  
+3. `[<lernact-prac>]`Extend the rain screensaver to work with the 7 rows of LEDs.  
+4. `[<lernact-prac>]`Extend the frequency bar screensaver to work with the 7 rows of LEDs.  
+5. `[<lernact-prac>]`**[Optional challenge, max 10 extra step points]** Extend the whole screesavers application to work with the 5x7 format and tag it `v2.0`.  
+
 #### 3. Present
-[[toc](#table-of-contents)]  
+[[toc](#table-of-contents)]
 
+In the [programs](programs) directory:
+1. Add your program from 12.2.1 with filename `microbit-program-12-2-1.js`.  
+2. Add your program from 12.2.2 with filename `microbit-program-12-2-2.js`.  
+3. Add your program from 12.2.3 with filename `microbit-program-12-2-3.js`.  
+4. Add your program from 12.2.4 with filename `microbit-program-12-2-4.js`.  
+5. Add your program from 12.2.5 with filename `microbit-program-12-2-5.js`.  
 
+In the [Lab Notebook](README.md):
 
+1. Link to the program from 12.2.1.  
+2. Link to the program from 12.2.2.  
+3. Link to the program from 12.2.3.  
+4. Link to the program from 12.2.4.  
+5. Link to the program from 12.2.5.  
+6. Link to the tag for program from 12.2.5.  
