@@ -248,8 +248,42 @@ Analog pin | Digital pin
 `pins.analogWritePin(AnalogPin.P0, 1023)` | `pins.digitalWritePin(DigitalPin.P0, 1)`
 
 ##### Defining extra rows
-- two extra rows for a 5x7 matrix   
-- extension of code and rain, separately  
+
+The best way to declare the extra rows is the one that will let you insert and/or modify minimal sections of the programs you are extending. Consider a 2D array, where you have two rows of 5 pins. See the following example:
+```javascript
+// Example 12.1.1
+
+let led_rows : AnalogPin[] = [
+    [[AnalogPin.P0], [AnalogPin.P2]],
+    [[AnalogPin.P1], [AnalogPin.P8]]
+]
+```
+Notice the following:
+1. The enumerated types `AnalogPin` and `DigitalPin` are mutually exclusive. That is, you can't use the same pin as both digital and analog in the same program.  
+2. You can organize the pins for the external LEDs in two different way, which equivalent except when it comes to index ordering in the 2D array selectors:
+   1. By rows:
+      ```javascript
+      // Example 12.1.2
+
+      let led_rows : AnalogPin[] = [
+          [[AnalogPin.P0], [AnalogPin.P2], [], [], []],
+          [[AnalogPin.P1], [AnalogPin.P8], [], [], []]
+      ]
+      ```
+      in which case the selectors are ordered as `[y][x]`, and
+   2. By columns:
+      ```javascript
+      // Example 12.1.3
+
+      let led_cols : AnalogPin[] = [
+          [[AnalogPin.P0], [AnalogPin.P1]],
+          [[AnalogPin.P2], [AnalogPin.P8]],
+          [[], []],
+          [[], []],
+          [[], []]
+      ]
+      ```
+      in which case the selectors are ordered as `[x][y]`.
 
 ##### Choice of pins
 
