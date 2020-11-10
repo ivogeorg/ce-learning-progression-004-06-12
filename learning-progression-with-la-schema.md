@@ -146,14 +146,53 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
+`[<lernact-rd>]`Our lab kit contains a sparkfun-branded `[<cept>]`[_multimeter_](https://github.com/ivogeorg/ce-learning-progression-004-06-12/blob/master/lab-kit.md#2-multimeter), a device capable of `[<cept>]`_measuring_ (meaning assigning numerical values to) electrical quantities. The [sparkfun multimeter tutorial](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter) is an excelent material that is difficult to top.  
+
+Note that the units of measurement are from the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units).  In particular, note the section on [prefixes](https://en.wikipedia.org/wiki/International_System_of_Units#Prefixes), which indicate the scale of the units. The multimeter has several scale settings for each measurable quantity and the choice of setting is important for the proper [care](https://github.com/ivogeorg/ce-learning-progression-004-06-12/blob/master/lab-kit.md#care-1) of the instrument.  
+
 ##### Measuring voltage  
-- voltage  
+
+Voltage is a measure of the difference in potential energy for the moving of electrical charge. Voltage is a `[<cept>]`_relative_ quantity, that is, we cannot the voltage of at any point in an electrical circuit without having a `[<cept>]`_reference point_. The units of measure of voltage (V) are `[<cept>]`_Volts (V)_. The reference point is usually assumed to be 0 V `[<cept>]`_ground_. Why is that? The ground of the Earth is assumed to be an infinite source or sink of electrical charge, so any point in an electrical cirtuit which is connected to the ground through a conducting wire will lose its voltage relative to it. Therefore, this is an ideal global reference point.
+
+Voltage is measured between two points in a circuit. To measure voltage:
+1. Put the multimeter (with the battery installed) dial in one of the voltage measurement positions. In this progression we will only deal with constant voltage, indicated by the symbol:  
+   ```
+   V ---
+     ...
+   ```
+   The setting should be equal to or exceed the maximum value you are going to measure. For the micro:bit, which operates at 3.3V maximum voltage, the dial of our multimeter should be set to 20 V.  
+2. Connect the two probes, the black one to the middle (common) port, and the red one to the port on the right. The needle-tipped probes can reach into breadboard holes.  
+3. Touch the black probe to ground.  
+4. Touch the red one to the point in the circuit you want to measure the voltage.  
+5. Read off the value (in Volts).  
+
+##### Different grounds
+
+You need to make sure that you measure voltages at points in a circuit **relative to its designated ground**. Voltage values measure against the ground of a different (not directly connected) circuit are meaningless.
+
+**Question 8.1.1:** What is the voltage you measure between the GND and 3V3 pins of the micro:bit?   
+**Question 8.1.2:** What is the voltage you measure between the GND and VCC pins of the power supply?   
+**Question 8.1.3:** What is the voltage you measure between the GND pin of the micro:bit and the and VCC pin of the power supply?   
+**Question 8.1.4:** What is the voltage you measure between the GND pin of the power supply and the 3V3 pin of the micro:bit?   
 
 ##### Measuring current  
-- current  
+
+Current is a measure of charge traveling through a section of a circuit (be it a wire or a circuit element). Current is an `[<cept>]`_absolute_ quantity, that is, we do not need a reference point. The units of measure for current (I) are `[<cept>]`_Amperes (A)_. To measure the current flowing through a part of a circuit, we need to connect the multimeter in such a way as to have the same current flow through it as well. 
+
+Current is measured by making the multimeter has to become "a part of" the circuit.  
+1. Put the multimeter (with the battery installed) dial in one of the current measurement positions. Current settings are indicated by the symbol:  
+   ```
+   A ---
+     ...
+   ```
+   The setting should be equal to or exceed the maximum value you are going to measure. For the [micro:bit](https://tech.microbit.org/hardware/1-5-revision/), the maximum current over the USB cable is 120mA and the maximum current supplied by the edge connector is 90mA.    
+2. Select a point in the circuit through which the current that you want to measure flows, and break the circuit there.  
+3. Connect the multimeter's probes to the two terminals of the break. The red-to-black direction should coincide with the direction of the current. (Otherwise, you will get the same value but with a negative sign in front.)  
+4. Read the value (in Amperes).  
 
 ##### Measuring resistance
-- resistance  
+
+Resistance is the measure of opposition to the flow of electrical current through a circuit element or wire.
 
 ##### Checking for continuity  
 - diode/continuity  
@@ -215,8 +254,6 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 - resources:
   - [edge connector](https://tech.microbit.org/hardware/edgeconnector/#pins-and-signals)  
   - [pin:out](https://microbit.pinout.xyz/)  
-
-##### Different grounds
 
 
 #### 2. Apply
