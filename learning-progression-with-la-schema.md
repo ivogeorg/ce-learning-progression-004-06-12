@@ -139,7 +139,7 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
-**TODO: Tasks on circuit sketches.**
+**TODO: Tasks on circuit sketches and circuit simulations.**
 
 
 
