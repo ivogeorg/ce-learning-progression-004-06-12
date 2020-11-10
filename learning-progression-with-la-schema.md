@@ -192,10 +192,17 @@ Current is measured by making the multimeter has to become "a part of" the circu
 
 ##### Measuring resistance
 
-Resistance is the measure of opposition to the flow of electrical current through a circuit element or wire.
+Resistance is the measure of opposition to the flow of electrical current through a circuit element or wire. Resistance is an absolute value. It depends only on the material and the shape of the element measured. The units of measurement are Ohms (<img src="https://render.githubusercontent.com/render/math?math=\Omega">). 
+
+To measure resistance across a circuit element:
+1. Disconnect the element and/or turn the circuit off (disconnect the power supply, battery, or other voltage or current source).  
+2. Put the multimeter (with the battery installed) dial in one of the resistance measurement positions. Current settings are indicated by the symbol <img src="https://render.githubusercontent.com/render/math?math=\Omega"> (large Greek Omega). The setting should be equal to or exceed the maximum value you are going to measure. In the lab kit, we have 330<img src="https://render.githubusercontent.com/render/math?math=\Omega"> and 10<img src="https://render.githubusercontent.com/render/math?math=k\Omega"> resistors. To measure them, use the 2<img src="https://render.githubusercontent.com/render/math?math=k\Omega"> and 20<img src="https://render.githubusercontent.com/render/math?math=k\Omega"> settings, respectively.       
 
 ##### Checking for continuity  
-- diode/continuity  
+
+The continuity setting is a resistance measure which emits a sound if the resistance is under a few Ohms. This means that the two points which are probed are electrically connected (as if by a wire). The symbol on the multimeter dial is:
+
+<img src="images/multimeter-continuity-setting.jpg" width="200"/>
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
