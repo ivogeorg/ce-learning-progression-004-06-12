@@ -101,6 +101,8 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
+**TODO: Thought experiments, research, and discovery!**  
+
 1. `[<lernact-disc>]`What if our physical world had 3 different charges instead of 2 (positive and negative)?  
 2. `[<lernact-disc>]`Each fundamental interaction has a mediator particle. What is the particle for Electromagnetism?    
 3. `[<lernact-disc>]`Einsein's largest contribution to science were his theories of relativity, special and general. But he did not get his Nobel Prize in Physics for either one. What did Einstein get a Nobel Prize for?    
@@ -136,6 +138,10 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
+
+**TODO: Tasks on circuit sketches.**
+
+
 
 #### 3. Present
 [[toc](#table-of-contents)]  
@@ -207,6 +213,8 @@ The continuity setting is a resistance measure which emits a sound if the resist
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
+**TODO: Measure everything, disconnected and connected to power supply.**
+
 #### 3. Present
 [[toc](#table-of-contents)]  
 
@@ -220,6 +228,8 @@ The continuity setting is a resistance measure which emits a sound if the resist
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
+
+**TODO: Measure and calculate the LED circuit. Learn the breadboard.**
 
 #### 3. Present
 [[toc](#table-of-contents)]  
@@ -265,6 +275,8 @@ The continuity setting is a resistance measure which emits a sound if the resist
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
+
+**TODO: A selection of representative functions using R networks and LED circuits.**
 
 #### 3. Present
 [[toc](#table-of-contents)]  
