@@ -287,9 +287,12 @@ Notice the following:
 
 ##### Choice of pins
 
-Because the LEDs as used in the screensavers have to be controlled independently from each other (unlike icon-based programs), this extension requires 10 GPIO pins. You can use the simple LED circuit to test each one of them with a simple program. The 
-
-- remove one button and convert the other to a mode toggle  
+There are a handful of factors that may affect the choice of pins for the two extra (external) LED rows:
+1. We need 10 pins that are not used for anything else. This means that we are going to run them with the single-pin write and read functions of the `pins` namespace.  
+2. We need the 5x5 LED matrix anaffected so that the original screensaver sub-programs display correctly. This means we cannot use the pins that are involved in running the LED matrix.  
+3. We have limited breadboard real estate below the micro:bit edge connector. This means we we want to pick maximally adjacent pins to drive adjacent LEDs.  
+4. The two pins used for the serial protocol I2C, namely `P19` and `P20`, would require extra `[<cept>]`_pull-down_ resistors to work, so they are not a good choice.  
+5. Putting together the count of available pins, we might need to sequester one or both of the pins connected to the buttons. _Note that, if you are doing the optional challenge at the end, you will need to leave one button pin unused and make that button a mode toggle._  
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
