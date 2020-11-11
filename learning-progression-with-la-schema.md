@@ -181,18 +181,37 @@ Alter the voltage and current of the circuit.
    7. R = R1 || R2 = 10 kOhms || 10 kOhms.  
    8. R = R1 || R2 = 330 Ohms || 10 kOhms.  
 
-2. `[<lernact-prac>]`**TODO**[In-browser simulation](http://lushprojects.com/circuitjs/circuitjs.html) would be very nice! ([source](https://github.com/sharpie7/circuitjs1)).  
+2. `[<lernact-prac>]`**[Optional challenge, max 5 step points]** Using the [CircuitJS](http://lushprojects.com/circuitjs/circuitjs.html) in-browser circuit drawer and simulator, build the following circuit:
+
+   <img src="images/circuit-js-task-circuit.png" width="600" />
+
+   1. If there are any elements on the screen, remove them by selecting them and deleting.  
+   2. Under draw, find the elements of the circuit (Voltage source, resistor, switch, wires).  
+   3. Right-click on the voltage source and create a slider from 0 to 5V. It will appear in the right column.  
+   4. Right-click on the resistor and select **Show in scope**.
+   5. Disconnect the switch, then reconnect.  
+   6. Vary the volgate from the slider.  
+
+3. `[<lernact-prac>]`**[Optional challenge, max 10 step points]** Using the [CircuitJS](http://lushprojects.com/circuitjs/circuitjs.html), build the following circuit, simulate it, and explain its general operation. _Hint: It is a simple dampened oscillator._
 
    <img src="images/circuit-js.png" width="400" />
 
-
-
-   
-
-
-
 #### 3. Present
 [[toc](#table-of-contents)]  
+
+In the [Lab Notebook](README.md):
+
+1. Draw the circuit and show the calculations for case 7.2.1.1.  
+2. Draw the circuit and show the calculations for case 7.2.1.2.  
+3. Draw the circuit and show the calculations for case 7.2.1.3.  
+4. Draw the circuit and show the calculations for case 7.2.1.4.  
+5. Draw the circuit and show the calculations for case 7.2.1.5.  
+6. Draw the circuit and show the calculations for case 7.2.1.6.  
+7. Draw the circuit and show the calculations for case 7.2.1.7.  
+8. Draw the circuit and show the calculations for case 7.2.1.8.  
+9. Record a video of the operation of the circuit for 7.2.2.  
+10. Record a video of the operation of the circuit for 7.2.3, and include a narrative with explanation and analysis of its operation.    
+
 
 ### Step 8: Multimeter  
 [[toc](#table-of-contents)]  
