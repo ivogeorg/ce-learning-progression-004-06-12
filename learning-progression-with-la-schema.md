@@ -84,6 +84,7 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 6. Wires.  
 
 ## Steps
+[[toc](#table-of-contents)]  
 
 ### Step 6: Electromagnetism
 [[toc](#table-of-contents)]  
@@ -92,28 +93,27 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 [[toc](#table-of-contents)]  
 
 ##### Fundamental interaction
+[[toc](#table-of-contents)]  
 
 `[<lernact-rd>]`_Electromagnetism_ is one of the four [fundamental interactions (or `[<cept>]`_forces_)](https://en.wikipedia.org/wiki/Fundamental_interaction) in Nature humanity is currently aware of. We have developed theories to explain it but they are still in development. Even a short survey of our understanding of electromagnetism is beyond the scope of this learning progression.
 
 ##### Electrostatics & magenetostatics
+[[toc](#table-of-contents)]  
 
 Humanity encountered electromagnetism thousands of years ago, largely in the form of `[<cept>]`_electrostatic_ and `[<cept>]`_electromagnetic_ phenomena in the world around. If you have ever combed your hair and it stood up, or small bits of paper were attracted to the comb afterwards, or walked with woolen socks on the carpet and, when you tried to turn the light on, a small spark jumped from your finger to the switch, you have also encountered one of these phenomena.
 
 Thousands of years later, human science has advanced enough to know that electricity and magnetism are manifestations of the same fundamental physical phenomenon, and, of course, that the most visible example of all is `[<cept>]`_light_.
 
 ##### Theories of electromagnetism
+[[toc](#table-of-contents)]  
 
-- theories of electricity  
-  - current as motion of charge  
-  - Maxwell's equations  
-  - quantum electrodynamics  
-  
 Here is a list of three electromagnetic theories:
 1. Flow of charge through conductors. This is not a full theory, but it is the first that students encounter in their studies due to the simplicity and approachability of the `[<cept>]`[_hydraulic analogy_](https://en.wikipedia.org/wiki/Fundamental_interaction), linking the largely invisible phenomenon of electric current in wires to the familiar flow of water through pipes. The hydraulic analogy quickly fails when we dig deeper, so it is used largely as a first bridge from the familar to the infamiliar.    
 2. Maxwell's equations. This is the most complete theory of electromagnetism that does not involve `[<cept>]`_quantum mechanics_ and is a sufficient basis for electric and computer technology. It masterfully weaves electric and magnetic fields together into an elegant mutual interdependence and explains current as electromagnetic waves flowing _outside_ the wires rather than inside.  
 3. Quantum electrodynamics. This is the current pinnacle of electromagnetic theory, which is consistent with the theory of `[<cept>]`_special relativity_ and is on track to unify electromagnetism with the `[<cept>]`_weak interaction_. As the name suggests, it is fully immersed in quantum mechanics, and sprung about, as usual, when scientists dug deeper and encountered phenomena that could not be explained with current theory.    
 
 ##### Charge, voltage, and current
+[[toc](#table-of-contents)]  
 
 The hudraulic analogy will be sufficient to motivate the necessary concepts that will lead us to hands-on application in a couple of steps.
 
@@ -122,12 +122,14 @@ Computer technology is built on the phenomenon of `[<cept>]`_electricity_, which
 When an electric field causes a directed motion of significant number of electons, we observe what is known as electrical `[<cept>]`_current_. Conceptually, electricity is the flow of electrons through wires. `[<cept>]`_Voltage_ is a measure of the energy required to create current between two points in a `[<cept>]`_conducting_ wire. It can also be thought as the magnitude of the electric field causing electrons to move.
 
 ##### Resistance  
+[[toc](#table-of-contents)]  
 
 Not all matter conducts current as well as wires, which are usually drawn from metals. Some materials do not conduct electricity at all. To characterize this important difference, we call this property `[<cept>]`_resistance_ and study what it depends upon. In metals, electrons from the outer `[<cept>]`_atomic orbitals_ are easy to dislodge and set to move about the material freely. When a voltage is applied through the material, these electrons move in the same direction, creating current.
 
 The full understanding of [resistance](https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance) quickly moves into the quantum realm, but a simplified explanation, based on `[<cept>]`[_band theory_](https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity#Band_theory_simplified) can still be given. Electrons around atomic nuclei can only take discrete `[<cept>]`_states_, called bands. Moving from one band to another takes `[<cept>]`_discrete_ amounts of energy. Different materials have a different configuration of bands around their nuclei, and correspondingly more or less easy transition of electrons from one band to another. In conductors, moving from one band to another is easy. In other materials, it is more difficult or impossible, and these materials are correspondingly called `[<cept>]`_insulators_.  
 
 ##### Ohm's law
+[[toc](#table-of-contents)]  
 
 There is an elegant relation between voltage (the measure of the energy necessary to create current), the magnitude of the current, and the amount of resistance of the material conducting the current. It is called Ohm's law. If we designate voltage as capital V, current as capital I, and resistance as capital R, the equation of Ohm's law is just
 
@@ -136,6 +138,7 @@ V = IR
 These are all measurable quantities and their units are Volts (for voltage), Amperes (for current), and Ohms (for resistance). Naturally, these are the names of 3 of the most prominent scientists who contributed to the theory which underlies electricity and, later, computers.  
 
 ##### Power
+[[toc](#table-of-contents)]  
 
 A most important quantity for the energy required to conduct current is `[<cept>]`_power (P)_, and it also has a very elegant equation:
 
@@ -167,13 +170,17 @@ In the [Lab Notebook](README.md):
 [[toc](#table-of-contents)]  
 
 ##### Circuits  
+[[toc](#table-of-contents)]  
+
 - circuits  
 - Kirchhoff's laws    
 - parallel and in-series resistors  
 
 ##### Short circuit
+[[toc](#table-of-contents)]  
 
 ##### Circuit elements  
+[[toc](#table-of-contents)]  
 
 Alter the voltage and current of the circuit. 
 
@@ -189,8 +196,10 @@ Alter the voltage and current of the circuit.
 - (n/a) mechanical switches  
 
 ##### Kirchhoff's circuit laws
+[[toc](#table-of-contents)]  
 
 ##### Resistors in series and in parallel
+[[toc](#table-of-contents)]  
 
 
 #### 2. Apply
@@ -260,6 +269,7 @@ In the [Lab Notebook](README.md):
 Note that the units of measurement are from the [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units).  In particular, note the section on [prefixes](https://en.wikipedia.org/wiki/International_System_of_Units#Prefixes), which indicate the scale of the units. The multimeter has several scale settings for each measurable quantity and the choice of setting is important for the proper [care](https://github.com/ivogeorg/ce-learning-progression-004-06-12/blob/master/lab-kit.md#care-1) of the instrument.  
 
 ##### Measuring voltage  
+[[toc](#table-of-contents)]  
 
 Voltage is a measure of the difference in potential energy for the moving of electrical charge. Voltage is a `[<cept>]`_relative_ quantity, that is, we cannot the voltage of at any point in an electrical circuit without having a `[<cept>]`_reference point_. The units of measure of voltage (V) are `[<cept>]`_Volts (V)_. The reference point is usually assumed to be 0 V `[<cept>]`_ground_. Why is that? The ground of the Earth is assumed to be an infinite source or sink of electrical charge, so any point in an electrical cirtuit which is connected to the ground through a conducting wire will lose its voltage relative to it. Therefore, this is an ideal global reference point.
 
@@ -276,6 +286,7 @@ Voltage is measured between two points in a circuit. To measure voltage:
 5. Read off the value (in Volts).  
 
 ##### Different grounds
+[[toc](#table-of-contents)]  
 
 You need to make sure that you measure voltages at points in a circuit **relative to its designated ground**. Voltage values measure against the ground of a different (not directly connected) circuit are meaningless.
 
@@ -285,6 +296,7 @@ You need to make sure that you measure voltages at points in a circuit **relativ
 **Question 8.1.4:** What is the voltage you measure between the GND pin of the power supply and the 3V3 pin of the micro:bit?   
 
 ##### Measuring current  
+[[toc](#table-of-contents)]  
 
 Current is a measure of charge traveling through a section of a circuit (be it a wire or a circuit element). Current is an `[<cept>]`_absolute_ quantity, that is, we do not need a reference point. The units of measure for current (I) are `[<cept>]`_Amperes (A)_. To measure the current flowing through a part of a circuit, we need to connect the multimeter in such a way as to have the same current flow through it as well. 
 
@@ -300,6 +312,7 @@ Current is measured by making the multimeter has to become "a part of" the circu
 4. Read the value (in Amperes).  
 
 ##### Measuring resistance
+[[toc](#table-of-contents)]  
 
 Resistance is the measure of opposition to the flow of electrical current through a circuit element or wire. Resistance is an absolute value. It depends only on the material and the shape of the element measured. The units of measurement are Ohms (<img src="https://render.githubusercontent.com/render/math?math=\Omega">). 
 
@@ -308,6 +321,7 @@ To measure resistance across a circuit element:
 2. Put the multimeter (with the battery installed) dial in one of the resistance measurement positions. Current settings are indicated by the symbol <img src="https://render.githubusercontent.com/render/math?math=\Omega"> (large Greek Omega). The setting should be equal to or exceed the maximum value you are going to measure. In the lab kit, we have 330<img src="https://render.githubusercontent.com/render/math?math=\Omega"> and 10<img src="https://render.githubusercontent.com/render/math?math=k\Omega"> resistors. To measure them, use the 2<img src="https://render.githubusercontent.com/render/math?math=k\Omega"> and 20<img src="https://render.githubusercontent.com/render/math?math=k\Omega"> settings, respectively.       
 
 ##### Checking for continuity  
+[[toc](#table-of-contents)]  
 
 The continuity setting is a resistance measure which emits a sound if the resistance is under a few Ohms. This means that the two points which are probed are electrically connected (as if by a wire). The symbol on the multimeter dial is:
 
@@ -363,11 +377,15 @@ The continuity setting is a resistance measure which emits a sound if the resist
 [[toc](#table-of-contents)]  
 
 ##### micro:bit I/O
+[[toc](#table-of-contents)]  
+
 - digital/analog functions  
 - write out to drive external LED circuit  
 - read in (simple resistor and LED circuits)  
 
 ##### Digital vs analog  
+[[toc](#table-of-contents)]  
+
 - digital vs analog (binary vs continuous-level signal)  
 - calibration of analog in  
 - write out and read in together to close the external-circuit loop  
@@ -391,6 +409,7 @@ The continuity setting is a resistance measure which emits a sound if the resist
 [[toc](#table-of-contents)]  
 
 ##### Extending a program
+[[toc](#table-of-contents)]  
 
 `[<lernact-rd>]`Extending a program is one of the most frequent tasks in software engineering. It is the complementary converse of iterative development. If you are building a large software or full-stack system, you want to implement it in steps of reasonable size, not too large and not too small. Inevitably, you will be extending an already written program.
 
@@ -407,6 +426,7 @@ Analog pin | Digital pin
 `pins.analogWritePin(AnalogPin.P0, 1023)` | `pins.digitalWritePin(DigitalPin.P0, 1)`
 
 ##### Defining extra rows
+[[toc](#table-of-contents)]  
 
 The best way to declare the extra rows is the one that will let you insert and/or modify minimal sections of the programs you are extending. Consider a 2D array, where you have two rows of 5 pins. See the following example:
 ```javascript
@@ -445,6 +465,7 @@ Notice the following:
       in which case the selectors are ordered as `[x][y]`.
 
 ##### Choice of pins
+[[toc](#table-of-contents)]  
 
 There are a handful of factors that may affect the choice of pins for the two extra (external) LED rows:
 1. We need 10 pins that are not used for anything else. This means that we are going to run them with the single-pin write and read functions of the `pins` namespace.  
