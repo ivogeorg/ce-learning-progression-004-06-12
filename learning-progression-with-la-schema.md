@@ -164,7 +164,7 @@ V = IR
 
    <img src="images/simple-circuit.jpg" width="400" />
 
-   It contains a simple circuit: a 3.3V voltage source (power supply) and a resistor configuration. The configuration can be a single resistor, two resistors in series or two resistors in parallel. Use Ohm's Law (V = IR) to calculate (i) the voltages across all resistors, (ii) the currents through all resistors, and (iii) the value of R, in each of the following cases:
+   It contains a simple circuit: a 3.3V voltage source (power supply) and a resistor configuration. The configuration can be a single resistor, two resistors in series or two resistors in parallel (both configurations are shown in the sketch below the circuit). Use Ohm's Law (V = IR) to calculate (i) the voltages across all resistors, (ii) the currents through all resistors, and (iii) the value of R, in each of the following cases:
    1. R = 330 Ohms.  
    2. R = 10 kOhms.  
    3. R = R1 + R2 = 330 Ohms + 330 Ohms.  
