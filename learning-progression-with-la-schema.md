@@ -351,10 +351,22 @@ The continuity setting is a resistance measure which emits a sound if the resist
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
-**TODO: Measure everything, disconnected and connected to power supply.**
+1. `[<lernact-prac>]`For each of the circuits in 7.2.1, measure the voltage, current, and resistance across R. Do they match your calculations?  
 
 #### 3. Present
 [[toc](#table-of-contents)]  
+
+In the [Lab Notebook](README.md) and the [images](images) directory:
+
+1. Build the circuit from 7.2.1.1, embed a picture of it, and include your measurements.    
+2. Build the circuit from 7.2.1.2, embed a picture of it, and include your measurements.    
+3. Build the circuit from 7.2.1.3, embed a picture of it, and include your measurements.    
+4. Build the circuit from 7.2.1.4, embed a picture of it, and include your measurements.    
+5. Build the circuit from 7.2.1.5, embed a picture of it, and include your measurements.    
+6. Build the circuit from 7.2.1.6, embed a picture of it, and include your measurements.    
+7. Build the circuit from 7.2.1.7, embed a picture of it, and include your measurements.    
+8. Build the circuit from 7.2.1.8, embed a picture of it, and include your measurements.    
+
 
 ### Step 9: Basic LED circuit  
 [[toc](#table-of-contents)]  
