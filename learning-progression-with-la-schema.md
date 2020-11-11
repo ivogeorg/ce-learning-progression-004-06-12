@@ -4,55 +4,7 @@ This is learning progression 004 for the Fall 2020 installment of the course CPE
 
 <img src="images/lp004-img.jpg" width="800" />
 
-Table of Contents
-=================
 
-* [CPE 1040 \- Fall 2020](#cpe-1040---fall-2020)
-  * [Learning Progression 004: External LEDs](#learning-progression-004-external-leds)
-  * [Lab kit](#lab-kit)
-    * [Parts for progression](#parts-for-progression)
-  * [Steps](#steps)
-    * [Step 6: Electromagnetism](#step-6-electromagnetism)
-      * [1\. Study](#1-study)
-        * [Fundamental interaction](#fundamental-interaction)
-        * [Electrostatics &amp; magenetostatics](#electrostatics--magenetostatics)
-        * [Theories of electricity](#theories-of-electricity)
-        * [Charge, voltage, and current](#charge-voltage-and-current)
-      * [2\. Apply](#2-apply)
-      * [3\. Present](#3-present)
-    * [Step 7: Circuits &amp; circuit elements](#step-7-circuits--circuit-elements)
-      * [1\. Study](#1-study-1)
-        * [Resistance](#resistance)
-        * [Circuits](#circuits)
-        * [Circuit elements](#circuit-elements)
-      * [2\. Apply](#2-apply-1)
-      * [3\. Present](#3-present-1)
-    * [Step 8: Multimeter](#step-8-multimeter)
-      * [1\. Study](#1-study-2)
-        * [Measuring voltage](#measuring-voltage)
-        * [Measuring current](#measuring-current)
-        * [Measuring resistance](#measuring-resistance)
-        * [Checking for continuity](#checking-for-continuity)
-      * [2\. Apply](#2-apply-2)
-      * [3\. Present](#3-present-2)
-    * [Step 9: Basic LED circuit](#step-9-basic-led-circuit)
-      * [1\. Study](#1-study-3)
-      * [2\. Apply](#2-apply-3)
-      * [3\. Present](#3-present-3)
-    * [Step 10: micro:bit breakout board](#step-10-microbit-breakout-board)
-      * [1\. Study](#1-study-4)
-      * [2\. Apply](#2-apply-4)
-      * [3\. Present](#3-present-4)
-    * [Step 11: micro:bit GPIO pins](#step-11-microbit-gpio-pins)
-      * [1\. Study](#1-study-5)
-        * [micro:bit I/O](#microbit-io)
-        * [Digital vs analog](#digital-vs-analog)
-      * [2\. Apply](#2-apply-5)
-      * [3\. Present](#3-present-5)
-    * [Step 12: Screensaver extension](#step-12-screensaver-extension)
-      * [1\. Study](#1-study-6)
-      * [2\. Apply](#2-apply-6)
-      * [3\. Present](#3-present-6)
 
 ## Learning Progression 004: External LEDs
 [[toc](#table-of-contents)]  
@@ -97,6 +49,15 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 ##### Charge, voltage, and current
 - charge, voltage, current  
 
+##### Resistance  
+- resistor
+  - band theory  
+
+##### Ohm's law
+
+V = IR
+
+
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
@@ -116,30 +77,51 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-##### Resistance  
-- resistor
-  - band theory  
-- Ohm's law
-
 ##### Circuits  
 - circuits  
 - Kirchhoff's laws    
 - parallel and in-series resistors  
 
+##### Short circuit
+
 ##### Circuit elements  
-- (n/a) capacitor   
-- (n/a) inductor   
-- diode  
+- passive:  
+  - resistor  
+  - (n/a) capacitor   
+  - (n/a) inductor   
+- active:  
+  - diode   
+  - transistor  
 - wires  
 - voltage/current source (battery)  
 - (n/a) mechanical switches  
-- [in-browser simulation](http://lushprojects.com/circuitjs/circuitjs.html) would be very nice! ([source](https://github.com/sharpie7/circuitjs1))  
+
+##### Kirchhoff's circuit laws
+
+##### Resistors in series and in parallel
 
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
-**TODO: Tasks on circuit sketches and circuit simulations.**
+1. `[<lernact-prac>]`Take a look at the following sketch:
+
+   <img src="images/simple-circuit.jpg" width="400" />
+
+   It contains a simple circuit: a 3.3V voltage source (power supply) and a resistor configuration. The configuration can be a single resistor, two resistors in series or two resistors in parallel. Use Ohm's Law (V = IR) to calculate (i) the voltages across all resistors, (ii) the currents through all resistors, and (iii) the value of R, in each of the following cases:
+   1. R = 330 Ohms.  
+   2. R = 10 kOhms.  
+   3. R = R1 + R2 = 330 Ohms + 330 Ohms.  
+   4. R = R1 + R2 = 10 kOhms + 10 kOhms.  
+   5. R = R1 + R2 = 330 Ohms + 10 kOhms.  
+   6. R = R1 || R2 = 330 Ohms || 330 Ohms.  
+   7. R = R1 || R2 = 10 kOhms || 10 kOhms.  
+   8. R = R1 || R2 = 330 Ohms || 10 kOhms.  
+
+2. `[<lernact-prac>]`  **TODO: CircuitJS**
+   - [in-browser simulation](http://lushprojects.com/circuitjs/circuitjs.html) would be very nice! ([source](https://github.com/sharpie7/circuitjs1))  
+
+   
 
 
 
