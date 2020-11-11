@@ -20,6 +20,7 @@ Table of Contents
         * [Charge, voltage, and current](#charge-voltage-and-current)
         * [Resistance](#resistance)
         * [Ohm's law](#ohms-law)
+        * [Power](#power)
       * [2\. Apply](#2-apply)
       * [3\. Present](#3-present)
     * [Step 7: Circuits &amp; circuit elements](#step-7-circuits--circuit-elements)
@@ -113,6 +114,9 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 
 V = IR
 
+##### Power
+
+
 
 
 #### 2. Apply
@@ -141,6 +145,9 @@ V = IR
 ##### Short circuit
 
 ##### Circuit elements  
+
+Alter the voltage and current of the circuit. 
+
 - passive:  
   - resistor  
   - (n/a) capacitor   
@@ -148,7 +155,7 @@ V = IR
 - active:  
   - diode   
   - transistor  
-- wires  
+- wires generally don't alter the voltage or current significantly  
 - voltage/current source (battery)  
 - (n/a) mechanical switches  
 
@@ -174,8 +181,11 @@ V = IR
    7. R = R1 || R2 = 10 kOhms || 10 kOhms.  
    8. R = R1 || R2 = 330 Ohms || 10 kOhms.  
 
-2. `[<lernact-prac>]`  **TODO: CircuitJS**
-   - [in-browser simulation](http://lushprojects.com/circuitjs/circuitjs.html) would be very nice! ([source](https://github.com/sharpie7/circuitjs1))  
+2. `[<lernact-prac>]`**TODO**[In-browser simulation](http://lushprojects.com/circuitjs/circuitjs.html) would be very nice! ([source](https://github.com/sharpie7/circuitjs1)).  
+
+   <img src="images/circuit-js.png" width="400" />
+
+
 
    
 
