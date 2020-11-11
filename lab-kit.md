@@ -25,7 +25,7 @@ Table of Contents
 ## 1. Breadboard
 [[toc](#table-of-contents)]  
 
-A breadboard is a plate with through-holes and electrical connections for use with hands-on circuit building and prototyping. This is the white plastic block shown on the picture below. There are also a [power supply](https://www.sparkfun.com/products/13032) (with a [wall adapter](https://www.sparkfun.com/products/15314) and a [microbit connector](https://www.sparkfun.com/products/13989).
+A breadboard is a plate with through-holes and [internal electrical connections](http://wiring.org.co/learning/tutorials/breadboard/) for use with hands-on circuit building and prototyping. This is the white plastic block shown in the picture below. Also in the picture, there are a [power supply](https://www.sparkfun.com/products/13032) (with a [wall adapter](https://www.sparkfun.com/products/15314) and a [microbit connector](https://www.sparkfun.com/products/13989).
 
 <img src="images/01-breadboard.jpg" width="600" />  
 
