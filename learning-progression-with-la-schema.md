@@ -466,8 +466,8 @@ The micro:bit performs `[<cept>]`_input_ and `[<cept>]`_output_ through the GPIO
 [[toc](#table-of-contents)]  
 
 The GPIO pins can work in two `[<cept>]`_mutually exclusive_ modes:
-1. Digital.  **TODO**  
-2. Analog.  **TODO**  
+1. Digital. `[<cept>]`_Ditigal signals_ have one of two values, 0 V, indicating `[<cept>]`_logical 0_, and the maximum circuit operating voltage (which in the case of the micro:bit is 3.3V), indicating `[<cept>]`_logical 1_.  
+2. Analog. `[<cept>]`_Analog signals_ have `[<cept>]`_continous_ values in the operating range (in our case is [0V, 3.3V]. An analog signal can have values 0.15V, 1.26V, 3.07V, etc. All signals in Nature are continuous and, therefore, analog. To work with data from analog input, computers convert it to `[<cept>]`_discrete_ (meaning map intervals of the continous signal to discrete values) first. Digital is discrete with only two values. The microbit analog levels from 0 to 1023 are a `[<cept>]`_discretization_ of the range [0V, 3.3V] with 1024 levels. This process is called `[<cept>]`[_analog-to-digital conversion_](https://en.wikipedia.org/wiki/Analog-to-digital_converter). This process, along with its converse `[<cept>]`_digital-to-analog conversion_ go together and are part of every computer system that has to work with analog signals.    
 
 More details on the operation of GPIO pins can be found in the [edge connector documentation](https://tech.microbit.org/hardware/edgeconnector/#pins-and-signals and the [pin:out](https://microbit.pinout.xyz/) project webpage.   
 
