@@ -187,6 +187,7 @@ Circuit elements are devices which alter the voltage and current of (segments of
 1. A `[<cept>]`[_resistor_](https://en.wikipedia.org/wiki/Resistor), a 2-terminal element, provides resistance and drops the voltage between its terminals according to Ohm's law.  
 2. A `[<cept>]`[_capacitor_](https://en.wikipedia.org/wiki/Capacitor), a 2-terminal element, acts like a small store of charge (meaning a very-low capacity battery). It is said to `[<cept>]`_charge_ (accumulate charge) and `[<cept>]`_discharge_ (dissipate charge).  
 3. An `[<cept>]`[_inductor_](https://en.wikipedia.org/wiki/Inductor), a 2-terminal element, and is usually some sort of coil, opposes the flow of current by aligning the magnetic field that the current creates in opposition to the current.  
+   1. A `[<cept>]`[_light-emitting diode (LED)_](https://en.wikipedia.org/wiki/Light-emitting_diode), a 2-terminal element, is a diode which emits light when it conducts electricity.  
 
 Active elements employ more complex electromagnetic phenomena (due to their special engineered structure and composition):
 1. A `[<cept>]`[_diode_](https://en.wikipedia.org/wiki/Diode), a 2-terminal `[<cept>]`_semiconductor_ device, conducts current only in one direction and stops it in the opposite direction.  
@@ -275,8 +276,8 @@ In the [Lab Notebook](README.md):
 8. Draw the circuit and show the calculations for case 7.2.1.6.  
 9. Draw the circuit and show the calculations for case 7.2.1.7.  
 10. Draw the circuit and show the calculations for case 7.2.1.8.  
-11. Record a video of the operation of the circuit for 7.2.2.  
-12. Record a video of the operation of the circuit for 7.2.3, and include a narrative with explanation and analysis of its operation.    
+11. Record a video (in the simulator) of the operation of the circuit for 7.2.2.  
+12. Record a video (in the simulator) of the operation of the circuit for 7.2.3, and include a narrative with explanation and analysis of its operation.    
 
 
 ### Step 8: Multimeter  
@@ -374,15 +375,42 @@ In the [Lab Notebook](README.md) and the [images](images) directory:
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-- LED current and voltage drop  
+Using LEDs in our circuits is the simplest way to build intuition about the operation of the otherwise invisible phenomena. We are going to use the following simple LED circuit for the rest of the progression:
+```        
+       ---------   Vcc = 3.3V                             ^^
+           |                                             //
+           |                330 Ohms                    //
+           |            -----------                   |\ |
+           |-----------|     R1    |------------------| >|------------|
+                        -----------                 + |/ | -          |
+                                                                      |
+                                                                   -------   GND (0V)
+                                                                    -----
+                                                                     ---
+                                                                      -
+```
+Notice the following:
+1. The LED is a diode, so it has to be connected correctly in the right direction (longer leg toward Vcc). Reversing the `[<cept>]`_polarity_ may damage the device.  
+2. There is an in-series resistor on one side before the LED. It limits the current flowing through the circuit (and, naturally, the LED) and protects it from excessive current. Connecting the LED directly between Vcc and GND may damage the device.  
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
 **TODO: Measure and calculate the LED circuit. Learn the breadboard.**
+1. `[<lernact-prac>]`Build the LED circiut and:
+   1. Measure the voltage drop across R1 and the LED. Is it within the range indicated for this color LED in the little documentation sheet in the LED pack?  
+   2. Measure the current flowing through the circuit.   
+   3. Using Ohm's law, calculate the `[<cept>]`_effective resistance_ R<sub>LED</sub> of the LED.  
+2. `[<lernact-prac>]`Switch the power supply to 5V and repeat the work from 9.2.1.  
 
 #### 3. Present
 [[toc](#table-of-contents)]  
+
+In the [Lab Notebook](README.md) and the [images](images) directory:
+
+1. Build the circuit from 9.2.1, embed a picture of it, and include your measurements.    
+2. Build the circuit from 9.2.2, embed a picture of it, and include your measurements.    
+
 
 ### Step 10: micro:bit breakout board
 [[toc](#table-of-contents)]  
