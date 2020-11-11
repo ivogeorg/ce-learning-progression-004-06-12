@@ -460,28 +460,58 @@ In the [Lab Notebook](README.md):
 ##### micro:bit I/O
 [[toc](#table-of-contents)]  
 
-- digital/analog functions  
-- write out to drive external LED circuit  
-- read in (simple resistor and LED circuits)  
+The micro:bit performs `[<cept>]`_input_ and `[<cept>]`_output_ through the GPIO pins. It can write or read from each pin individually. It can also perform I/O using `[<cept>]`_serial protocols_ like `[<cept>]`_SPI_ and `[<cept>]`_I2C_. We won't be covering these protocols in this progression as that requires an `[<cept>]`_oscillocope_ to read and demonstrate.    
 
 ##### Digital vs analog  
 [[toc](#table-of-contents)]  
 
-- digital vs analog (binary vs continuous-level signal)  
-- calibration of analog in  
-- write out and read in together to close the external-circuit loop  
-- resources:
-  - [edge connector](https://tech.microbit.org/hardware/edgeconnector/#pins-and-signals)  
-  - [pin:out](https://microbit.pinout.xyz/)  
+The GPIO pins can work in two `[<cept>]`_mutually exclusive_ modes:
+1. Digital.  **TODO**  
+2. Analog.  **TODO**  
 
+More details on the operation of GPIO pins can be found in the [edge connector documentation](https://tech.microbit.org/hardware/edgeconnector/#pins-and-signals and the [pin:out](https://microbit.pinout.xyz/) project webpage.   
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
-**TODO: A selection of representative functions using R networks and LED circuits.**
+1. `[<lernact-prac>]`Write a program to output an analog signal at levels from 0 to 1023, at intervals of 100, for 3 seconds each. Measure the voltage at each level.  
+2. `[<lernact-prac>]`Attach our usual LED circuit to an analog pin outputting an analog signal at levels from 0 to 1023, at intervals of 100, for 10 or more seconds each. Measure the voltage drop across the 330 Ohm resistor and the LED at each level.  
+3. `[<lernact-prac>]`Connect the multimeter to measure the current through the circuit 11.2.2. Run the same program. Measure the current at each level.  
+4. `[<lernact-prac>]`Attach our usual LED circuit to a digital pin outputting an alternating 0 and 1 signal, at intervals of 100, for 10 or more seconds each. Measure the voltage drop across the 330 Ohm resistor and the LED at each level.  
+5. `[<lernact-prac>]`Connect the multimeter to measure the current through the circuit 11.2.4. Run the same program. Measure the current at each level.  
+6. `[<lernact-prac>]`**[Optional challenge, max 10 extra step points]** Build a circuit with two 330 Ohm resistors in series, driven by an analog pin. Use the program from 11.2.1 to run the pin. Connect the point between the two resistors to another pin, in the analog read mode. Extend the program to:
+   1. Read the value of the point between the resistors.   
+   2. Use the function `pins.map()` to map the analog range [0, 1023] to the range [0, 9].  
+   3. Use columns 0 and 1 to build an output voltage gauge, as follows:
+      1. For mapped level [0, 1], light the LED at (0, 4) (bottom left).  
+      2. For mapped level [1, 2], light the LEDs at (0, 3) and (0, 4).  
+      3. For the next 3 levels, continue lighting 3, 4, or all 5 of column 0.  
+      4. For the higher levels, start lighting the LEDs of column 1, from bottom toward top, in addition to the LEDs of column 0.  
+   4. Use columns 3 and 4 to build an input voltage gauge.  
+   5. Use the input guage to display the mapped analog ouput voltage driving the external circuit.  
+   6. Use the output gauge to display the mapped analog input voltgate from the point between the two resistors.  
 
 #### 3. Present
 [[toc](#table-of-contents)]  
+
+In the [programs](programs) directory:
+
+1. Add your program from 11.2.1 with filename `microbit-program-11-2-1.js`.  
+2. Add your program from 11.2.2 with filename `microbit-program-11-2-2.js`.  
+3. Add your program from 11.2.4 with filename `microbit-program-11-2-4.js`.  
+4. Add your program from 11.2.6 with filename `microbit-program-11-2-6.js`.  
+
+In the [Lab Notebook](README.md):
+
+1. Link to the program from 11.2.1.  
+2. Link to a demo video of the operation of the program from 11.2.1.  
+3. Link to the program from 11.2.2.  
+4. Link to a demo video of the operation of the program from 11.2.2.  
+5. Link to the program from 11.2.4.  
+6. Link to a demo video of the operation of the program from 11.2.4.  
+7. Link to the program from 11.2.6.  
+8. Link to a demo video of the operation of the program from 11.2.6.  
+
 
 ### Step 12: Screensaver extension   
 [[toc](#table-of-contents)]  
