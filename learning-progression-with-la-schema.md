@@ -28,7 +28,6 @@ Table of Contents
         * [Circuits](#circuits)
         * [Short circuit](#short-circuit)
         * [Circuit elements](#circuit-elements)
-        * [Kirchhoff's circuit laws](#kirchhoffs-circuit-laws)
         * [Resistors in series and in parallel](#resistors-in-series-and-in-parallel)
       * [2\. Apply](#2-apply-1)
       * [3\. Present](#3-present-1)
@@ -172,35 +171,55 @@ In the [Lab Notebook](README.md):
 ##### Circuits  
 [[toc](#table-of-contents)]  
 
-- circuits  
-- Kirchhoff's laws    
-- parallel and in-series resistors  
+Circuits are closed loops of wires and various `[<cept>]`_circuit elements_, in which electricity flows to do useful work. All computers are large (collections of) circuits. One of the best ways to conceptualize what a circuit is is to study `[<cept>]`[_Kirchhoff's circuit laws_](https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws):  
+1. The law for voltage states that around every closed loop in a circuit the sum of the voltages of all circuit segments that compose the loop is zero. Voltage is a relative quantity, so it is always measured between two points. So, every segment of a loop has a voltage between its terminals. Voltage is positive at a point A if it is higher than the voltage at a reference point B. The universal convention for reference is `[<cept>]`_ground (0 Volts)_, but for a segment in the loop, that doesn't have to be the case. When a voltage increases across a segment (e.g. because it contains a battery) the volgate is said to `[<cept>]`_rise_. When the voltage decreases across a segment (e.g. because there is an element with strong resistance, which requires a lot of voltage to get charge to move across it) the voltage is said to `[<cept>]`_drop_. The voltage law states that around a closed loop, the volgate rises and drops sum up to 0. _Note that this zero has no units, so it should not be read as 0 Volts (or O V)._   
+2. The law for current states that the sum of all currents in any junction in a circuit is zero. Current is an absolute quantity, because it measures the amount of charge is traveling along a conducting segment of a circuit in a certain direction. Points in the circuit where wires and circuit elements meet, are called junctions. Naturally, if the currents flowing in and those flowing out of a junction didn't cancel out, there would be a build-up of charge at the point of the junction. Remember that like charges repel, so the build-up of charge will eventually cause the current to stop, and that would be a most useless circuit.  
 
 ##### Short circuit
 [[toc](#table-of-contents)]  
 
+The common term `[<cept>]`_short circuit_ refers to a closed loop that has a voltage rise but doesn't have a resistive element to counterbalance with a voltage drop. This can only occur instantaneously and usually destroys the circuit (e.g. by burning the wire or destroying the battery).  
+
 ##### Circuit elements  
 [[toc](#table-of-contents)]  
 
-Alter the voltage and current of the circuit. 
+Circuit elements are devices which alter the voltage and current of (segments of) the circuit they are connected in. `[<cept>]`_Passive_ elements employ simple electromagnetic phenomena to do so:
+1. A `[<cept>]`[_resistor_](https://en.wikipedia.org/wiki/Resistor), a 2-terminal element, provides resistance and drops the voltage between its terminals according to Ohm's law.  
+2. A `[<cept>]`[_capacitor_](https://en.wikipedia.org/wiki/Capacitor), a 2-terminal element, acts like a small store of charge (meaning a very-low capacity battery). It is said to `[<cept>]`_charge_ (accumulate charge) and `[<cept>]`_discharge_ (dissipate charge).  
+3. An `[<cept>]`[_inductor_](https://en.wikipedia.org/wiki/Inductor), a 2-terminal element, and is usually some sort of coil, opposes the flow of current by aligning the magnetic field that the current creates in opposition to the current.  
 
-- passive:  
-  - resistor  
-  - (n/a) capacitor   
-  - (n/a) inductor   
-- active:  
-  - diode   
-  - transistor  
-- wires generally don't alter the voltage or current significantly  
-- voltage/current source (battery)  
-- (n/a) mechanical switches  
+Active elements employ more complex electromagnetic phenomena (due to their special engineered structure and composition):
+1. A `[<cept>]`[_diode_](https://en.wikipedia.org/wiki/Diode), a 2-terminal `[<cept>]`_semiconductor_ device, conducts current only in one direction and stops it in the opposite direction.  
+2. A `[<cept>]`[_transistor_](), a 3-terminal semiconductor device, acts as an `[<cept>]`_electronic switch_ in which one of the terminals (called the `[<cept>]`_base_ or `[<cept>]`_gate_, depending on the type of transistor) controls the flow of current across the other two terminals (called, correspondingly, `[<cept>]`_emitter_ and `[<cept>]`_collector_, and `[<cept>]`_source_ and `[<cept>]`_drain_).  
 
-##### Kirchhoff's circuit laws
-[[toc](#table-of-contents)]  
+Other elements:
+1. Voltage and current sources drive the circuit.  
+2. Wires, which connect all other elements into closed loops, generally do not alter the voltage or current significantly at normal scales.  
+3. Mechanical switches (as opposed to transistors) provide controllable breaks in the circuit.  
 
 ##### Resistors in series and in parallel
 [[toc](#table-of-contents)]  
 
+Resistors can be connected in various configurations, but they are generally composed of two basic configurations:
+1. `[<cept>]`_Series_ (aka "in-series") describes two resistors sharing a terminal:
+   ```
+                        -----------                    -----------
+           ------------|     R1    |------------------|     R2    |-------------
+                        -----------                    -----------
+   ```
+2. `[<cept>]`_Parallel_ (aka "in-parallel") described two resistors sharing both their terminals:
+   ```
+                        -----------          
+                 /-----|     R1    |-----\
+                 |      -----------      |    
+           ------|                       |------ 
+                 |      -----------      |    
+                 \-----|     R1    |-----/
+                        -----------          
+   ```
+
+`[<lernact-ans>]`**Question 7.1.1:** In a series configuration of resistors, what (current or voltage) is the same? _Hint: Use Ohm's and Kirchhoff's laws._  
+`[<lernact-ans>]`**Question 7.1.2:** In a parallel configuration of resistors, what (current or voltage) is the same? _Hint: Use Ohm's and Kirchhoff's laws._    
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
@@ -246,16 +265,18 @@ Alter the voltage and current of the circuit.
 
 In the [Lab Notebook](README.md):
 
-1. Draw the circuit and show the calculations for case 7.2.1.1.  
-2. Draw the circuit and show the calculations for case 7.2.1.2.  
-3. Draw the circuit and show the calculations for case 7.2.1.3.  
-4. Draw the circuit and show the calculations for case 7.2.1.4.  
-5. Draw the circuit and show the calculations for case 7.2.1.5.  
-6. Draw the circuit and show the calculations for case 7.2.1.6.  
-7. Draw the circuit and show the calculations for case 7.2.1.7.  
-8. Draw the circuit and show the calculations for case 7.2.1.8.  
-9. Record a video of the operation of the circuit for 7.2.2.  
-10. Record a video of the operation of the circuit for 7.2.3, and include a narrative with explanation and analysis of its operation.    
+1. Answer question 7.1.1. 
+2. Answer question 7.1.2. 
+3. Draw the circuit and show the calculations for case 7.2.1.1.  
+4. Draw the circuit and show the calculations for case 7.2.1.2.  
+5. Draw the circuit and show the calculations for case 7.2.1.3.  
+6. Draw the circuit and show the calculations for case 7.2.1.4.  
+7. Draw the circuit and show the calculations for case 7.2.1.5.  
+8. Draw the circuit and show the calculations for case 7.2.1.6.  
+9. Draw the circuit and show the calculations for case 7.2.1.7.  
+10. Draw the circuit and show the calculations for case 7.2.1.8.  
+11. Record a video of the operation of the circuit for 7.2.2.  
+12. Record a video of the operation of the circuit for 7.2.3, and include a narrative with explanation and analysis of its operation.    
 
 
 ### Step 8: Multimeter  
@@ -290,10 +311,10 @@ Voltage is measured between two points in a circuit. To measure voltage:
 
 You need to make sure that you measure voltages at points in a circuit **relative to its designated ground**. Voltage values measure against the ground of a different (not directly connected) circuit are meaningless.
 
-**Question 8.1.1:** What is the voltage you measure between the GND and 3V3 pins of the micro:bit?   
-**Question 8.1.2:** What is the voltage you measure between the GND and VCC pins of the power supply?   
-**Question 8.1.3:** What is the voltage you measure between the GND pin of the micro:bit and the and VCC pin of the power supply?   
-**Question 8.1.4:** What is the voltage you measure between the GND pin of the power supply and the 3V3 pin of the micro:bit?   
+`[<lernact-ans>]`**Question 8.1.1:** What is the voltage you measure between the GND and 3V3 pins of the micro:bit?   
+`[<lernact-ans>]`**Question 8.1.2:** What is the voltage you measure between the GND and VCC pins of the power supply?   
+`[<lernact-ans>]`**Question 8.1.3:** What is the voltage you measure between the GND pin of the micro:bit and the and VCC pin of the power supply?   
+`[<lernact-ans>]`**Question 8.1.4:** What is the voltage you measure between the GND pin of the power supply and the 3V3 pin of the micro:bit?   
 
 ##### Measuring current  
 [[toc](#table-of-contents)]  
