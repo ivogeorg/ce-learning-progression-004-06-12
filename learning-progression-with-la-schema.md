@@ -418,18 +418,38 @@ In the [Lab Notebook](README.md) and the [images](images) directory:
 #### 1. Study
 [[toc](#table-of-contents)]  
 
-[Hookup guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide)  
+Read through the [micro:bit breakout hookup guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide) and connect your micro:bit to the breadboard. 
+
+Note: 
+1. Do not operate the micro:bit with the power supply on.  
+2. Do not use the power supply ground.  
+3. Use the micro:bit ground (GND) pin.  
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
 1. `[<lernact-prac>]`Run the program from the guide, using any 3 LEDs of different color.  
-2. `[<lernact-prac>]`Run with 5 LED circuits.    
-3. `[<lernact-prac>]`5 LED circuits driven by 5 evenly offset sinusoids to produce a ripple effect.    
-
+2. `[<lernact-prac>]`Run the same program with 5 LEDs. Feel free to change the pattern.      
+3. `[<lernact-prac>]`**[Optional challenge, max 5 extra step points]** Write a program to drive 3 external LEDs driven by 3 `[<cept>]`_sinusoids_ offset at <img src="https://render.githubusercontent.com/render/math?math=2\pi/3"> radians apart.    
 
 #### 3. Present
 [[toc](#table-of-contents)]  
+
+In the [programs](programs) directory:
+
+1. Add your program from 10.2.1 with filename `microbit-program-10-2-1.js`.  
+2. Add your program from 10.2.2 with filename `microbit-program-10-2-2.js`.  
+3. Add your program from 10.2.3 with filename `microbit-program-10-2-3.js`.  
+
+In the [Lab Notebook](README.md):
+
+1. Link to the program from 10.2.1.  
+2. Link to a demo video of the operation of the program from 10.2.1.  
+1. Link to the program from 10.2.2.  
+2. Link to a demo video of the operation of the program from 10.2.2.  
+1. Link to the program from 10.2.3.  
+2. Link to a demo video of the operation of the program from 10.2.3.  
+
 
 ### Step 11: micro:bit GPIO pins
 [[toc](#table-of-contents)]  
@@ -548,6 +568,7 @@ There are a handful of factors that may affect the choice of pins for the two ex
 [[toc](#table-of-contents)]
 
 In the [programs](programs) directory:
+
 1. Add your program from 12.2.1 with filename `microbit-program-12-2-1.js`.  
 2. Add your program from 12.2.2 with filename `microbit-program-12-2-2.js`.  
 3. Add your program from 12.2.3 with filename `microbit-program-12-2-3.js`.  
@@ -557,8 +578,13 @@ In the [programs](programs) directory:
 In the [Lab Notebook](README.md):
 
 1. Link to the program from 12.2.1.  
+2. Link to a demo video of the operation of the program from 12.2.1.  
 2. Link to the program from 12.2.2.  
+2. Link to a demo video of the operation of the program from 12.2.2.  
 3. Link to the program from 12.2.3.  
+2. Link to a demo video of the operation of the program from 12.2.3.  
 4. Link to the program from 12.2.4.  
+2. Link to a demo video of the operation of the program from 12.2.4.  
 5. Link to the program from 12.2.5.  
-6. Link to the tag for program from 12.2.5.  
+2. Link to a demo video of the operation of the program from 12.2.5.  
+6. Link to the tag for the program from 12.2.5.  
