@@ -117,8 +117,6 @@ V = IR
 ##### Power
 
 
-
-
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
@@ -185,12 +183,19 @@ Alter the voltage and current of the circuit.
 
    <img src="images/circuit-js-task-circuit.png" width="600" />
 
-   1. If there are any elements on the screen, remove them by selecting them and deleting.  
-   2. Under draw, find the elements of the circuit (Voltage source, resistor, switch, wires).  
-   3. Right-click on the voltage source and create a slider from 0 to 5V. It will appear in the right column.  
-   4. Right-click on the resistor and select **Show in scope**.
-   5. Disconnect the switch, then reconnect.  
-   6. Vary the volgate from the slider.  
+   1. Note the alternative symbol for a volgate source (or battery):
+      ```
+         |   +
+      -------
+        ---
+         |   -
+      ```
+   2. If there are any elements on the screen, remove them by selecting them and deleting.  
+   3. Under draw, find the elements of the circuit (Voltage source, resistor, switch, wires).  
+   4. Right-click on the voltage source and create a slider from 0 to 5V. It will appear in the right column.  
+   5. Right-click on the resistor and select **Show in scope**.
+   6. Disconnect the switch, then reconnect.  
+   7. Vary the volgate from the slider.  
 
 3. `[<lernact-prac>]`**[Optional challenge, max 10 step points]** Using the [CircuitJS](http://lushprojects.com/circuitjs/circuitjs.html), build the following circuit, simulate it, and explain its general operation. _Hint: It is a simple dampened oscillator._
 
