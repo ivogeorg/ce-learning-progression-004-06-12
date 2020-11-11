@@ -16,7 +16,7 @@ Table of Contents
       * [1\. Study](#1-study)
         * [Fundamental interaction](#fundamental-interaction)
         * [Electrostatics &amp; magenetostatics](#electrostatics--magenetostatics)
-        * [Theories of electricity](#theories-of-electricity)
+        * [Theories of electromagnetism](#theories-of-electromagnetism)
         * [Charge, voltage, and current](#charge-voltage-and-current)
         * [Resistance](#resistance)
         * [Ohm's law](#ohms-law)
@@ -93,41 +93,72 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 
 ##### Fundamental interaction
 
+`[<lernact-rd>]`_Electromagnetism_ is one of the four [fundamental interactions (or `[<cept>]`_forces_)](https://en.wikipedia.org/wiki/Fundamental_interaction) in Nature humanity is currently aware of. We have developed theories to explain it but they are still in development. Even a short survey of our understanding of electromagnetism is beyond the scope of this learning progression.
+
 ##### Electrostatics & magenetostatics
 
-- electrostatics (rubbing amber, etc.)  
+Humanity encountered electromagnetism thousands of years ago, largely in the form of `[<cept>]`_electrostatic_ and `[<cept>]`_electromagnetic_ phenomena in the world around. If you have ever combed your hair and it stood up, or small bits of paper were attracted to the comb afterwards, or walked with woolen socks on the carpet and, when you tried to turn the light on, a small spark jumped from your finger to the switch, you have also encountered one of these phenomena.
 
-##### Theories of electricity
+Thousands of years later, human science has advanced enough to know that electricity and magnetism are manifestations of the same fundamental physical phenomenon, and, of course, that the most visible example of all is `[<cept>]`_light_.
+
+##### Theories of electromagnetism
+
 - theories of electricity  
   - current as motion of charge  
   - Maxwell's equations  
   - quantum electrodynamics  
+  
+Here is a list of three electromagnetic theories:
+1. Flow of charge through conductors. This is not a full theory, but it is the first that students encounter in their studies due to the simplicity and approachability of the `[<cept>]`[_hydraulic analogy_](https://en.wikipedia.org/wiki/Fundamental_interaction), linking the largely invisible phenomenon of electric current in wires to the familiar flow of water through pipes. The hydraulic analogy quickly fails when we dig deeper, so it is used largely as a first bridge from the familar to the infamiliar.    
+2. Maxwell's equations. This is the most complete theory of electromagnetism that does not involve `[<cept>]`_quantum mechanics_ and is a sufficient basis for electric and computer technology. It masterfully weaves electric and magnetic fields together into an elegant mutual interdependence and explains current as electromagnetic waves flowing _outside_ the wires rather than inside.  
+3. Quantum electrodynamics. This is the current pinnacle of electromagnetic theory, which is consistent with the theory of `[<cept>]`_special relativity_ and is on track to unify electromagnetism with the `[<cept>]`_weak interaction_. As the name suggests, it is fully immersed in quantum mechanics, and sprung about, as usual, when scientists dug deeper and encountered phenomena that could not be explained with current theory.    
 
 ##### Charge, voltage, and current
-- charge, voltage, current  
+
+The hudraulic analogy will be sufficient to motivate the necessary concepts that will lead us to hands-on application in a couple of steps.
+
+Computer technology is built on the phenomenon of `[<cept>]`_electricity_, which is understood to be a flow of `[<cept>]`_charge_. Charge is a fundamental property of matter, and there are two types, conventionally called `[<cept>]`_positive_ and `[<cept>]`_negative_. `[<cept>]`_Atoms_ are the fundamental building blocks of matter and consist of positively-charged `[<cept>]`_nuclei_ and negatively-charged `[<cept>]`_electrons_, circling around the nuclei. When the electrons are close to the nucleus, the atom is electrically `[<cept>]`_neutral_, but when they are pulled away from the nucleus, an `[<cept>]`_electric field_ arises that attracts them together. So, charges interact, with like charges repelling each other, and opposite charges attracting each other.
+
+When an electric field causes a directed motion of significant number of electons, we observe what is known as electrical `[<cept>]`_current_. Conceptually, electricity is the flow of electrons through wires. `[<cept>]`_Voltage_ is a measure of the energy required to create current between two points in a `[<cept>]`_conducting_ wire. It can also be thought as the magnitude of the electric field causing electrons to move.
 
 ##### Resistance  
-- resistor
-  - band theory  
+
+Not all matter conducts current as well as wires, which are usually drawn from metals. Some materials do not conduct electricity at all. To characterize this important difference, we call this property `[<cept>]`_resistance_ and study what it depends upon. In metals, electrons from the outer `[<cept>]`_atomic orbitals_ are easy to dislodge and set to move about the material freely. When a voltage is applied through the material, these electrons move in the same direction, creating current.
+
+The full understanding of [resistance](https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance) quickly moves into the quantum realm, but a simplified explanation, based on `[<cept>]`[_band theory_](https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity#Band_theory_simplified) can still be given. Electrons around atomic nuclei can only take discrete `[<cept>]`_states_, called bands. Moving from one band to another takes `[<cept>]`_discrete_ amounts of energy. Different materials have a different configuration of bands around their nuclei, and correspondingly more or less easy transition of electrons from one band to another. In conductors, moving from one band to another is easy. In other materials, it is more difficult or impossible, and these materials are correspondingly called `[<cept>]`_insulators_.  
 
 ##### Ohm's law
 
+There is an elegant relation between voltage (the measure of the energy necessary to create current), the magnitude of the current, and the amount of resistance of the material conducting the current. It is called Ohm's law. If we designate voltage as capital V, current as capital I, and resistance as capital R, the equation of Ohm's law is just
+
 V = IR
+
+These are all measurable quantities and their units are Volts (for voltage), Amperes (for current), and Ohms (for resistance). Naturally, these are the names of 3 of the most prominent scientists who contributed to the theory which underlies electricity and, later, computers.  
 
 ##### Power
 
+A most important quantity for the energy required to conduct current is `[<cept>]`_power (P)_, and it also has a very elegant equation:
+
+P = VI
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
-**TODO: Thought experiments, research, and discovery!**  
-
 1. `[<lernact-disc>]`What if our physical world had 3 different charges instead of 2 (positive and negative)?  
-2. `[<lernact-disc>]`Each fundamental interaction has a mediator particle. What is the particle for Electromagnetism?    
+2. `[<lernact-disc>]`Each fundamental interaction has a mediator particle. What is the particle for Electromagnetism? How can you explain that?      
 3. `[<lernact-disc>]`Einsein's largest contribution to science were his theories of relativity, special and general. But he did not get his Nobel Prize in Physics for either one. What did Einstein get a Nobel Prize for?    
+4. `[<lernact-disc>]`**[Optional challenge, max 10 extra step points]** Discuss the details of the hydraulic analogy for current, and find one point where it breaks (that is, the analogy stops holding).  
 
 #### 3. Present
 [[toc](#table-of-contents)]  
+
+In the [Lab Notebook](README.md):
+
+1. Show your work for 6.2.1 in well-formatted Markdown, including whatever images, tables, or other graphical elements you find necessary.  
+2. Show your work for 6.2.2 in well-formatted Markdown, including whatever images, tables, or other graphical elements you find necessary.  
+3. Show your work for 6.2.3 in well-formatted Markdown, including whatever images, tables, or other graphical elements you find necessary.  
+4. Show your work for 6.2.4 in well-formatted Markdown, including whatever images, tables, or other graphical elements you find necessary.  
+
 
 ### Step 7: Circuits & circuit elements  
 [[toc](#table-of-contents)]  
