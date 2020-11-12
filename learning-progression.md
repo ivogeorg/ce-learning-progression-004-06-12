@@ -187,10 +187,10 @@ Circuit elements are devices which alter the voltage and current of (segments of
 1. A [_resistor_](https://en.wikipedia.org/wiki/Resistor), a 2-terminal element, provides resistance and drops the voltage between its terminals according to Ohm's law.  
 2. A [_capacitor_](https://en.wikipedia.org/wiki/Capacitor), a 2-terminal element, acts like a small store of charge (meaning a very-low capacity battery). It is said to _charge_ (accumulate charge) and _discharge_ (dissipate charge).  
 3. An [_inductor_](https://en.wikipedia.org/wiki/Inductor), a 2-terminal element, and is usually some sort of coil, opposes the flow of current by aligning the magnetic field that the current creates in opposition to the current.  
-   1. A [_light-emitting diode (LED)_](https://en.wikipedia.org/wiki/Light-emitting_diode), a 2-terminal element, is a diode which emits light when it conducts electricity.  
 
 Active elements employ more complex electromagnetic phenomena (due to their special engineered structure and composition):
 1. A [_diode_](https://en.wikipedia.org/wiki/Diode), a 2-terminal _semiconductor_ device, conducts current only in one direction and stops it in the opposite direction.  
+   1. A [_light-emitting diode (LED)_](https://en.wikipedia.org/wiki/Light-emitting_diode), a 2-terminal element, is a diode which emits light when it conducts electricity.  
 2. A [_transistor_](), a 3-terminal semiconductor device, acts as an _electronic switch_ in which one of the terminals (called the _base_ or _gate_, depending on the type of transistor) controls the flow of current across the other two terminals (called, correspondingly, _emitter_ and _collector_, and _source_ and _drain_).  
 
 Other elements:
@@ -424,6 +424,18 @@ Note:
 1. Do not operate the micro:bit with the power supply on.  
 2. Do not use the power supply ground.  
 3. Use the micro:bit ground (GND) pin.  
+4. The guide shows the use of a 3-color (RGB) led with 4 terminals. Use 3 2-terminal LEDs of colors of your choice instead:
+   ```
+         |     |     |                    |     |     |                    
+         |     |     |                    |     |     |                    
+         |     |     |                    |     |     |                    
+         |     |     |                    |     |     |                    
+         R     G     B         vs         R     G     B                    
+         |     |     |                    |     |     |                    
+         -------------                    |     |     |
+               |                          |     |     |
+               |                          |     |     |
+   ```
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
@@ -469,7 +481,7 @@ The GPIO pins can work in two _mutually exclusive_ modes:
 1. Digital. _Ditigal signals_ have one of two values, 0 V, indicating _logical 0_, and the maximum circuit operating voltage (which in the case of the micro:bit is 3.3V), indicating _logical 1_.  
 2. Analog. _Analog signals_ have _continous_ values in the operating range (in our case is [0V, 3.3V]. An analog signal can have values 0.15V, 1.26V, 3.07V, etc. All signals in Nature are continuous and, therefore, analog. To work with data from analog input, computers convert it to _discrete_ (meaning map intervals of the continous signal to discrete values) first. Digital is discrete with only two values. The microbit analog levels from 0 to 1023 are a _discretization_ of the range [0V, 3.3V] with 1024 levels. This process is called [_analog-to-digital conversion_](https://en.wikipedia.org/wiki/Analog-to-digital_converter). This process, along with its converse _digital-to-analog conversion_ go together and are part of every computer system that has to work with analog signals.    
 
-More details on the operation of GPIO pins can be found in the [edge connector documentation](https://tech.microbit.org/hardware/edgeconnector/#pins-and-signals and the [pin:out](https://microbit.pinout.xyz/) project webpage.   
+More details on the operation of GPIO pins can be found in the [edge connector documentation](https://tech.microbit.org/hardware/edgeconnector/#pins-and-signals) and the [pin:out](https://microbit.pinout.xyz/) project webpage.   
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
@@ -505,12 +517,17 @@ In the [Lab Notebook](README.md):
 
 1. Link to the program from 11.2.1.  
 2. Link to a demo video of the operation of the program from 11.2.1.  
-3. Link to the program from 11.2.2.  
-4. Link to a demo video of the operation of the program from 11.2.2.  
-5. Link to the program from 11.2.4.  
-6. Link to a demo video of the operation of the program from 11.2.4.  
-7. Link to the program from 11.2.6.  
-8. Link to a demo video of the operation of the program from 11.2.6.  
+3. Present your measurements from 11.2.1.  
+4. Link to the program from 11.2.2.  
+5. Link to a demo video of the operation of the program from 11.2.2.  
+6. Present your measurements from 11.2.2.  
+7. Present your measurements from 11.2.3.  
+8. Link to the program from 11.2.4.  
+9. Link to a demo video of the operation of the program from 11.2.4.  
+10. Present your measurements from 11.2.4.  
+11. Present your measurements from 11.2.5.  
+12. Link to the program from 11.2.6.  
+13. Link to a demo video of the operation of the program from 11.2.6.  
 
 
 ### Step 12: Screensaver extension   
