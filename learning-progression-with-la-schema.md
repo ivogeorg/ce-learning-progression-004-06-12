@@ -125,7 +125,7 @@ When an electric field causes a directed motion of significant number of electon
 
 Not all matter conducts current as well as wires, which are usually drawn from metals. Some materials do not conduct electricity at all. To characterize this important difference, we call this property `[<cept>]`_resistance_ and study what it depends upon. In metals, electrons from the outer `[<cept>]`_atomic orbitals_ are easy to dislodge and set to move about the material freely. When a voltage is applied through the material, these electrons move in the same direction, creating current.
 
-The full understanding of [resistance](https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance) quickly moves into the quantum realm, but a simplified explanation, based on `[<cept>]`[_band theory_](https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity#Band_theory_simplified) can still be given. Electrons around atomic nuclei can only take discrete `[<cept>]`_states_, called bands. Moving from one band to another takes `[<cept>]`_discrete_ amounts of energy. Different materials have a different configuration of bands around their nuclei, and correspondingly more or less easy transition of electrons from one band to another. In conductors, moving from one band to another is easy. In other materials, it is more difficult or impossible, and these materials are correspondingly called `[<cept>]`_insulators_.  
+The full understanding of [resistance](https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance) quickly moves into the quantum realm, but a simplified explanation, based on `[<cept>]`[_band theory_](https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity#Band_theory_simplified) can still be given. Electrons around atomic nuclei can only take discrete `[<cept>]`_states_, called bands. Moving from one band to another takes `[<cept>]`_discrete_ amounts of energy. Different materials have a different configuration of bands around their nuclei, and correspondingly more or less easy transition of electrons from one band to another. In conductors, moving from one band to another is easy. In other materials, it is more difficult or impossible, and these materials are correspondingly called `[<cept>]`_dielectrics_ (aka `[<cept>]`_insulators_).  
 
 ##### Ohm's law
 [[toc](#table-of-contents)]  
@@ -424,7 +424,7 @@ Note:
 1. Do not operate the micro:bit with the power supply on.  
 2. Do not use the power supply ground.  
 3. Use the micro:bit ground (GND) pin.  
-4. The guide shows the use of a 3-color (RGB) led with 4 terminals. Use 3 2-terminal LEDs of colors of your choice instead:
+4. The guide shows the use of a 3-color (RGB) LED with 4 terminals. Use 3 2-terminal LEDs of colors of your choice instead:
    ```
          |     |     |                    |     |     |                    
          |     |     |                    |     |     |                    
