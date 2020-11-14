@@ -81,6 +81,7 @@ The lab kit is described in detail in a [separate page](lab-kit.md). Please, mak
 4. 330 Ohm resistor (10 count).  
 5. LEDs (10 count).  
 6. Wires.  
+7. Multimeter with needle-tipped probes.  
 
 ## Steps
 [[toc](#table-of-contents)]  
